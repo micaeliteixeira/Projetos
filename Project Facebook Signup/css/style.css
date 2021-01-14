@@ -1,0 +1,273 @@
+html {
+  background-color: #ffffff;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(white, #D3D8E8);
+  font-family: inherit;
+}
+
+header {
+  background-color: rgb(66, 103, 178);
+}
+
+#user-password,
+#user-email-phone {
+  padding: 1%;
+}
+
+.teste {
+  margin-bottom: 1%;
+}
+
+.top-bar {
+  margin: 0 auto 0 auto;
+  width: 980px;
+  align-items: center;
+  display: flex;
+  height: 76px;
+  justify-content: space-between;
+  padding: 13px 0 0 ;
+}
+.login {
+  padding: 0 0 0 14px;
+  display: flex;
+  width: 440px;
+}
+
+.facebook-login {
+  display: flex;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.34;
+  color:white;
+  font-size: 12px;
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 8px 0 0 14px;
+}
+
+.form-control {
+  padding-right: 14px;
+  align-self: flex-end;
+  margin: 0px 14px 16.5px;
+}
+#forgot-password {
+  margin-top: 1px;
+}
+#button-login {
+  background-color: #4267b2;
+  border: 1px solid #29487d;
+  border-radius: 2px;
+  font-weight: bold;
+  line-height: 18px;
+  padding: 2px 6px;
+  color: white;
+   
+}
+
+.main-content {
+  margin: 0 auto 0 auto;
+  width: 980px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left-content {
+  width: 580px;
+}
+
+.left {
+  margin: 40px 3% ;
+  width: 75%;
+}
+
+#facebook-slogan {
+  color: #0e385f;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 29px;
+  margin-top: 40px;
+  width: 450px;
+  word-spacing: -1px;
+}
+
+.top-right {
+  padding: 20px 0px;
+}
+
+.open {
+  color: #333;
+  font-family: Helvetica;
+  font-size:36px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.quick-easy {
+  color: #333;
+  font-family: Helvetica;
+  font-size: 19px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.right-content {
+  width: 400px;
+}
+.test {
+  display: flex;
+  flex-direction: column;
+}
+.names {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.name {
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #bdc7d8;
+  font-family: Helvetica;
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding: 8px 10px;
+  
+}
+.name-two {
+  margin-right: 15px;
+  margin-bottom: 0px;
+}
+
+.tet-label {
+  color: #90949c;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+select {
+  background-color: #ffffff;
+  border-color: #bdc7d8;
+  font-size: 13px;
+  height: 30px;
+  padding: 5px;
+}
+
+.radios-gender {
+  color: #1D2129;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Helvetica;
+  font-size: 18px;
+  margin-top: 2%;
+}
+  
+#facebook-register {
+  background-color: #69a74e;
+  background: linear-gradient(#67ae55, #578843);
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  border-radius: 5px;
+  border: 1px solid;
+  box-shadow: inset 0 1px 1px #a4e388;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+  font-size: 19px;
+  letter-spacing: 1px;
+  margin-bottom: 2%;
+  margin-top: 5%;
+  min-width: 194px;
+  padding: 7px 20px;
+  position: relative;
+  text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+
+.textt {
+  color: #666666;
+  font-family: Helvetica;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 7%;
+}
+
+.click {
+  color: #666666;
+  font-family: Helvetica;
+  font-size: 11px;
+  width: 72%;
+}
+
+b {
+  color: #385898;
+}
+
+.footer {
+  background-color: #ffffff;
+}
+
+.all {
+  color: #385898;
+  cursor: pointer;
+  font-family: Helvetica;
+  font-size: 12px;
+  margin: 0 auto 0 auto;
+  padding-top: 2%;
+  width: 980px;
+  word-spacing: 7px;
+}
+
+.idiomas{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.br {
+  color: #737373;
+  font-family: Helvetica;
+}
+
+hr {
+  width: 980px;
+  
+}
+
+.new-gen {
+  border-radius: 5px;
+  font-size: 15px;
+  margin-top: 6px;
+  padding: 1px;
+  width: 402px;
+}
+
+.tex {
+  color: #606770;
+  font-family: Helvetica;
+  font-size: 12px;
+  line-height: 1.34;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+.hide{
+  display: none;
+}
+
+.show{
+  display: block;
+}
+
+.welcome {
+  font-family: Helvetica;
+  font-size: 15px;
+  font-style: italic;
+  letter-spacing: 1.5px;
+  margin-top: 30px;
+}

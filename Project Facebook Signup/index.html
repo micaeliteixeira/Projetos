@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./css/style.css" rel="stylesheet">
+  <link href="./css/justValidateTooltip.min.css" rel="stylesheet">
+  <title>Project Facebook</title>
+</head>
+
+<body>
+  <header>
+
+    <!--TOPO DA PÁGINA-->
+    <div class="top-bar">
+      <img src="imgs/facebook-removebg.png" width="22%" class="facebook-logo">
+      <form action="#" method="GET" class="facebook-login">
+
+        <!--EMAIL-->
+        <div class="login">
+          <div class="form-group">
+            <label for="user-email-phone" id="user-email-phone-label" class="teste" >Email ou telefone</label>
+            <input type="text" id="user-email-phone">
+          </div>
+          <!-- SENHA-->
+            <div class="form-group">
+              <label for="user-password" id="user-password-label" class="teste">Senha</label>
+              <input type="password" id="user-password">
+              <label id="forgot-password">Esqueceu a senha?</label>
+            </div>
+
+            <!--BOTÃO ENTRAR-->
+            <div class="form-control">
+              <button id="button-login" type="submit">Entrar</button>
+            </div>
+        </div>
+      </form>
+    </div>
+  </header>
+
+  <!-- PARTE DO MEIO DA PÁGINA -->
+  <div class="main-content">
+
+    <!-- LADO ESQUERDO -->
+    <div class="left-content">
+      <div class="left">
+        <p id="facebook-slogan">
+          O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.
+        </p>
+        <img src="imgs/networking.png" id="facebook-networking">
+      </div>
+    </div>
+
+    <!-- LADO DIREITO -->
+    <div class="right-content">
+      <div class="hide" id="before-submit">
+        <p id="textBefore"></p>
+      </div>
+      <div class="show" id="after-submit">
+      <div class="top-right">
+        <h1 class="open"> Abra uma conta </h1>
+        <div class="quick-easy"> É rápido e fácil. </div>
+      </div> 
+      <!-- FORMULÁRIO -->
+      <form method="" action="">
+        <div class="test">
+          <div class="names">
+            <input id="first" name="firstname" type="text" placeholder="Nome" class="name name-two" size="17.5" required>
+            <input id="last" name="lastname" type="text" placeholder="Sobrenome" class="name name-two" size="17.5" required>
+          </div>
+
+          <input name="phone_email" type="text" placeholder="Celular ou email" class="name" id="cel-email" required>
+          <input name="password" type="password" placeholder="Nova senha" class="name" required>
+          <br>
+
+          <label for="" id="label-birthdate" class="tet-label"> Data de nascimento </label>
+          <div class="date">
+            <select name="date" id="day"></select>
+            <select name="month" id="month"> </select>
+            <select name="year" id="year"> </select>
+            <img src="./imgs/in.png" width="15px" style="margin-left: 5px;">
+            <!-- <input name="birthdate" type="text" placeholder="dd/mm/aaaa"> -->
+          </div>
+          <br>
+        </div>
+        <label for="gender" id="label-gender" class="tet-label"> Gênero </label>
+        <div class="radios-gender">
+          <label>
+            <input type="radio" name="gender" value="Feminino" required id="mas" class="req">
+             Feminino
+          </label>
+
+          <label>
+            <input type="radio" name="gender" value="Masculino" required id="fem" class="req">
+            Masculino 
+          <label>
+          
+          <label>
+            <input type="radio" name="gender" value="Personalizado" required id="custom" >
+            Personalizado
+          </label>
+
+          <img src="./imgs/in.png" width="15px" style="margin-left: px;">
+          </div>
+          <div class="hide" id="div-custom">
+            <select name="gender" id="gender-new" class="new-gen">
+              <option value="0"> Selecione seu pronome </option>
+              <option value="1"> Feminino: "Deseje a ela um feliz aniversário!" </option>
+              <option value="2"> Masculino: "Deseje a ele um feliz aniversário!" </option>
+              <option value="3"> Neutro: "Deseje a ele(a) um feliz aniversário!" </option>
+            </select>
+            <p class="tex"> O seu pronome fica visível para todos. </p>
+
+            <input type="text" placeholder="Gênero (opcional)" class="name name-two" size="38px">
+          </div>
+
+        <button id="facebook-register" type="submit">Cadastre-se</button>
+        
+        <p class="click">Ao clicar em Cadastre-se, você concorda com nossos <b> Termos, Política de Dados e Política de Cookies.</b> Você pode receber notificações por SMS e cancelar isso quando quiser.</p>
+
+        <p class="textt"><b>Criar uma Página</b> para uma celebridade, banda ou empresa.</p>
+      </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="all">
+      <div class="idiomas"></div>
+      <hr>
+      <div class="extra"> </div>
+    </div>
+</div>
+  <!-- ENTRADA DO JAVASCRiPT-->
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
