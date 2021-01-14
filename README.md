@@ -1,7 +1,7 @@
 Trybe - Project :rocket:
 ==========================
 
-#### *This repository contains projects developed by Micaeli Teixeira over the course of software development in 2020 and 2021 at Trybe.*
+#### *This repository contains some projects developed by Micaeli Teixeira over the course of software development in 2020 and 2021 at Trybe.*
 
 ---
 
