@@ -24,7 +24,7 @@ The project features a grid where you can color with standard colors or random c
  2. The page must have a palette of four different colors.
  3. The black color must be the first in the color palette.
  4. The page must have a pixel grid, with 25 pixels.
- 5. Each element of the pixel frame must be 40 pixels wide and 40 pixels high and be delimited by a 1 pixel black border.
+ 5. Each element of the pixel frame must be 40 pixels wide and 40 pixels high.
  6. When loading the page, the black color of the palette must already be selected to paint the pixels.
  7. When clicking on one of the colors in the palette, the selected color will be used to fill the pixels in the frame.
  8. When clicking on a pixel within the frame after selecting a color from the palette, the pixel must be filled with that color.
