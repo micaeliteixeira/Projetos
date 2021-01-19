@@ -1,32 +1,11 @@
-Trybe - Project :rocket:
+Hi, welcome to my Trybe project repository !! :rocket:
 ==========================
 
-#### *This repository contains some projects developed by Micaeli Teixeira over the course of software development in 2020 and 2021 at Trybe.*
-
+#### This repository contains some projects developed during the software development course at [Trybe](https://www.betrybe.com/) and is constantly updated
 ---
 
-## Introduction to Web Development :hourglass:
+## Projects: :hourglass:
    
-   - [ ] Project Lessons Learned 
-   - [ ] Project Playground Fuctions
-   - [ ] Project To Do List
-   - [ ] Project Pixel Art
-   - [ ] Project Meme Generator
-   - [ ] Project Facebook Signup
-   - [ ] Project JS Unit Tests
-   - [ ] Project Zoo Functions
-   - [ ] Project Shopping Cart
-   - [ ] Project Jest
-    
-## Front-End Development  :hourglass:
-
-   - [ ] Project Movie Card Library
-   - [ ] Project Movie Card Library Stateful
-   - [ ] Project Movie Card Library CRUD
-   - [ ] Project Frontend Online Store
-   - [ ] Project React Testing Library
-   - [ ] Project Trybe Wallet
-   - [ ] Project Trivia
-   - [ ] Project Star Wars Datatable com Context API e Hooks
-   - [ ] Project Recipe App
-
+   * Project Pixel Art
+   * Project Facebook Signup
+  
