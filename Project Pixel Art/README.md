@@ -5,6 +5,8 @@ This project is a project developed during the Full-Stack Web Software Developme
 The project features a grid where you can color with standard colors or random colors when clicked on the random color button. You can also clean your drawing and define the size of the large one.
 
 <img src="https://github.com/micaeliteixeira/Trybe-Projects/blob/project-pixel-art/Project%20Pixel%20Art/art-with-pixels.gif">
+<img src="https://github.com/micaeliteixeira/Trybe-Projects/blob/project-pixel-art/Project%20Pixel%20Art/cap.png">
+
 
 ---
 
