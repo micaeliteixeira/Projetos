@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <title>Paleta de Cores</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Henny+Penny&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1 id ='title'>Paleta de Cores</h1>
+
+  <section id="color-palette" class="color-palette">
+    <div class='color  selected'></div>
+    <div class='color '></div>
+    <div class='color '></div>
+    <div class='color '></div>
+  </section>
+
+ 
+  <section class="button-class">
+    <section class= "add">
+      <p class="text"> Quantos quadradinhos você precisa? </p>
+      <input type="number" min="5" max="50" id="input-add"/>
+      <button id='add' class="buttons">Adicionar</button>
+    </section>
+    <section>
+    <button id='aleatoria' class="buttons">Gerar Cor Aleatoria</button>
+    <button id='clear-board' class="buttons">Limpar Desenho</button>
+  </section>
+  </section>
+
+  <section id="pixel-board" class="pixel-board" />
+   <script type='text/javascript' src='script.js'></script>
+</body>
+</html>

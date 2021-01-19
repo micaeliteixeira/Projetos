@@ -1,0 +1,95 @@
+html{
+  background-image: url(./bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.color-palette {
+  display: flex;
+  justify-content: center;
+}
+
+.button-class{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.add {
+  display: flex;
+  margin-right: 5px;
+  align-items: center;
+
+}
+
+.text {
+  color:white;
+  font-family: 'Comfortaa', cursive;
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+#input-add{
+  border-radius: 10px;
+  font-family: 'Comfortaa', cursive;
+  font-size: 15px;
+  margin-right: 10px;
+  padding: 2px;
+}
+
+.buttons{
+  background: none;
+  border-radius: 15px;
+  border: rgb(190, 190, 162) 2px solid;
+  color: white;
+  font-family: 'Comfortaa', cursive;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 3px;
+}
+
+.pixel-board {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.table {
+  display: flex;
+ }
+
+.color {
+  border-radius: 50%;
+  float: left;
+  height: 50px;
+  width: 50px;
+  margin: 2px;
+}
+
+
+.pixel {
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  float: left;
+  height: 40px;
+  margin: 0.5px;
+  width: 40px;
+}
+
+#title {
+  color:white;
+  font-family: 'Henny Penny', cursive;
+  font-size: 50px;
+  letter-spacing: 3px;
+  margin: 0px auto;
+  text-align: center;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  width: 80%;
+}
