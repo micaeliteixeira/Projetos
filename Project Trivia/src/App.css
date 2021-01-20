@@ -1,11 +1,8 @@
-html {
-  margin: 0;
-  padding: 0;
-  background-color: black ;
-}
+/* font-family: 'Bai Jamjuree', sans-serif;
+font-family: 'Electrolize', sans-serif; */
 
-.container {
-  font-family: Helvetica, sans-serif;
-  margin: 25% auto;
-  width: 40%;
+html {
+  background-image: url(./image/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 130%;
 }
