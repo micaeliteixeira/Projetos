@@ -1,8 +1,8 @@
-# Welcome to the Pixel Art project!  👋
+# Bem vindo ao  Projeto Pixel Art!  👋
 
-This project is a project developed during the Full-Stack Web Software Development course at [Trybe](https://www.betrybe.com/), in the Fundamentals of Web Development module, as a way to test and put the practices acquired during the course.
+Este projeto é um projeto desenvolvido durante o curso Desenvolvimento de Software Full-Stark na [Trybe](https://www.betrybe.com/), no módulo Fundamentos de Desenvolvimento Web, como forma de testar e colocar as práticas adquiridas durante o curso.
 
-The project features a grid where you can color with standard colors or random colors when clicked on the random color button. You can also clean your drawing and define the size of the large one.
+O projeto apresenta uma grade onde você pode colorir com cores podrões  ou cores aleatórias quando clicado no botão de cor aleatória. Você também pode limpar seu desenho e definir o tamanho do grande.
 
 <img src="https://github.com/micaeliteixeira/Trybe-Projects/blob/master/Project%20Pixel%20Art/art-with-pixels.gif">
 <img src="https://github.com/micaeliteixeira/Trybe-Projects/blob/master/Project%20Pixel%20Art/cap.png">
@@ -10,7 +10,7 @@ The project features a grid where you can color with standard colors or random c
 
 ---
 
-##  Skills 💡 :
+## Habilidades 💡 :
 
   - HTML
   - CSS
@@ -18,19 +18,19 @@ The project features a grid where you can color with standard colors or random c
 
 ---
 
-## Deliverable 🚀:
+## Entregáveis 🚀 :
 
- 1. The page must have the title "Palette of Colors".
- 2. The page must have a palette of four different colors.
- 3. The black color must be the first in the color palette.
- 4. The page must have a pixel grid, with 25 pixels.
- 5. Each element of the pixel frame must be 40 pixels wide and 40 pixels high.
- 6. When loading the page, the black color of the palette must already be selected to paint the pixels.
- 7. When clicking on one of the colors in the palette, the selected color will be used to fill the pixels in the frame.
- 8. When clicking on a pixel within the frame after selecting a color from the palette, the pixel must be filled with that color.
- 9. Create a button that, when clicked, clears the frame by filling the color of all its pixels with white.
- 10. Make a grid its user-defined size.
- 11. Make the colors in the palette randomly generated when loading the page.
+ 1. A página deve ter o título "Paleta de Cores".
+ 2. A página deve ter uma paleta de quatro cores diferentes.
+ 3. A cor preta deve ser a primeira na paleta de cores.
+ 4. A página deve ter uma grade de pixels, com 25 pixels.
+ 5. Cada elemento do quadro de pixel deve ter 40 pixels de largura e 40 pixels de altura.
+ 6. Ao carregar a página, a cor preta da paleta já deve estar selecionada para pintar os pixels.
+ 7. Ao clicar em uma das cores da paleta, a cor selecionada será utilizada para preencher os pixels do quadro.
+ 8. Ao clicar em um pixel dentro do quadro depois de selecionar uma cor da paleta, o pixel deve ser preenchido com essa cor.
+ 9. Crie um botão que, ao ser clicado, limpa o quadro preenchendo com branco a cor de todos os seus pixels.
+ 10. Faça uma grade com o tamanho definido pelo usuário.
+ 11. Faça com que as cores na paleta sejam geradas aleatoriamente ao carregar a página.
    
   ---
 ##  # VQV🚀
