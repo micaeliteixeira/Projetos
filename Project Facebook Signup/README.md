@@ -1,12 +1,12 @@
-# Welcome to the replica project of the Facebook registration page! 👋
+# Bem-vindo ao projeto  réplica da página de registro do Facebook! 👋
 
-This project is a project developed during the Full-Stack Web Software Development course at [Trybe](https://www.betrybe.com/), in the Front-End module. In order to make a replica of the page (old version 2019) of registration and login of [Facebook](https://facebook.com/), as a way of testing and placing practices acquired during the course.
+Este projeto é um projeto desenvolvido durante o curso Full-Stack Web Software Development em [Trybe](https://www.betrybe.com/), no módulo Front-End. Para fazer uma réplica da página (versão antiga 2019) de cadastro e login do [Facebook](https://facebook.com/), como forma de testar e colocar as práticas adquiridas durante o curso.
 
 <img src="https://github.com/micaeliteixeira/Trybe-Projects/blob/project-facebook/Project%20Facebook%20Signup/imgs/facebook.png">
 
 ---
 
-##  Skills 💡 :
+##  Habilidades 💡 :
 
   - HTML
   - CSS
@@ -14,28 +14,28 @@ This project is a project developed during the Full-Stack Web Software Developme
 
 ---
 
-## Deliverable 🚀:
+## Entregáveis 🚀:
 
-   1. Create a blue bar at the top of the page.
-   2. The top bar should contain the Facebook logo in the left corner.
-   3. The top bar should contain an authentication form in the right corner.
-   4. Create a class in CSS.
-   5. Add the first subcontainer to group the label and field "E-mail or telephone" within the form created in step 3.
-   6. Add the second subcontainer to group the label and field "Password" within the form created in step 3.
-   7. Add the third subcontainer with the "Enter" button inside the form created in step 3.
-   8. Create a container with the main-content class below the blue bar to group the main content of the page
-   9. Create a subcontainer with the left-content class to place the content on the left side inside the container with the main-content class
-   10. Create a subcontainer with the right-content class to place the content on the right side inside the container with the main-content class
-   11. Create a text entry field for the user's name within the form created in requirement 10.
-   12. Create a text entry field for the user's last name within the form created in requirement 10.
-   13. Create a text entry field for the user's cell phone or email within the form created in requirement 10.
-   14. Create an input field for the user's password within the form created in requirement 10.
-   15. Create an entry field for the user's date of birth within the form created in requirement 10.
-   16. Create an input field for the user's gender within the form created in requirement 10.
-   17. Create a button to finalize the registration within the form created in requirement 10.
-   18. Validate that all fields were filled out by clicking on the "Register" button.
-   19. Add a new text field on the form if the user selects the option "Custom" in the Gender field.
-   20. Replace the contents of the container with the registration responses if the form is completely filled out and validated.
+   1. Crie uma barra azul no topo da página.
+   2. A barra superior deve conter o logotipo do Facebook no canto esquerdo.
+   3. A barra superior deve conter um formulário de autenticação no canto direito.
+   4. Crie uma classe em CSS.
+   5. Adicione o primeiro subcontêiner para agrupar o rótulo e o campo "E-mail ou telefone" dentro do formulário criado na etapa 3.
+   6. Adicione o segundo subcontêiner para agrupar o rótulo e o campo "Senha" no formulário criado na etapa 3.
+   7. Adicione o terceiro subcontêiner com o botão "Enter" dentro do formulário criado na etapa 3.
+   8. Crie um contêiner com a classe de conteúdo principal abaixo da barra azul para agrupar o conteúdo principal da página
+   9. Crie um subcontêiner com a classe de conteúdo esquerdo para colocar o conteúdo no lado esquerdo dentro do contêiner com a classe de conteúdo principal
+   10. Crie um subcontêiner com a classe de conteúdo certo para colocar o conteúdo no lado direito dentro do contêiner com a classe de conteúdo principal
+   11. Crie um campo de entrada de texto para o nome do usuário no formulário criado no requisito 10.
+   12. Crie um campo de entrada de texto para o sobrenome do usuário no formulário criado no requisito 10.
+   13. Crie um campo de entrada de texto para o telefone celular ou e-mail do usuário no formulário criado no requisito 10.
+   14. Crie um campo de entrada para a senha do usuário no formulário criado no requisito 10.
+   15. Crie um campo de entrada para a data de nascimento do usuário no formulário criado no requisito 10.
+   16. Crie um campo de entrada para o sexo do usuário no formulário criado no requisito 10.
+   17. Crie um botão para finalizar o registro dentro do formulário criado no requisito 10.
+   18. Valide o preenchimento de todos os campos clicando no botão "Cadastrar".
+   19. Adicione um novo campo de texto ao formulário se o usuário selecionar a opção "Personalizado" no campo Sexo.
+   20. Substitua o conteúdo do container pelas respostas do cadastro se o formulário estiver totalmente preenchido e validado.
 
 
 
