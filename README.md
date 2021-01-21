@@ -1,10 +1,10 @@
-Hi, welcome to my Trybe project repository !! :rocket:
+Oi, bem vindo ao meu repositório de projetos !! :rocket:
 ==========================
 
-#### This repository contains some projects developed during the software development course at [Trybe](https://www.betrybe.com/) and is constantly updated
+#### Este repositório contém alguns projetos desenvolvidos durante o curso de desenvolvimento de software em [Trybe] (https://www.betrybe.com/) e esta constantemente atualizado
 ---
 
-## Projects: :hourglass:
+## Projetos: :hourglass:
    
    * Project Pixel Art
    * Project Facebook Signup
