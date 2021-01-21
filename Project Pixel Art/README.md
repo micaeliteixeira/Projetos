@@ -1,4 +1,4 @@
-# Bem vindo ao  Projeto Pixel Art!  👋
+# Bem-vindo ao  Projeto Pixel Art!  👋
 
 Este projeto é um projeto desenvolvido durante o curso Desenvolvimento de Software Full-Stark na [Trybe](https://www.betrybe.com/), no módulo Fundamentos de Desenvolvimento Web, como forma de testar e colocar as práticas adquiridas durante o curso.
 
