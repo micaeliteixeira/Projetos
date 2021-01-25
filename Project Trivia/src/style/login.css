@@ -1,0 +1,90 @@
+.container-login {
+  border-radius: 26px 26px 26px 26px;
+  box-shadow: 2px 3px 1px 1px rgba(68,10,87,0.66);
+  height: 400px;
+  opacity: 80%;
+  width: 20%;
+  position: relative;
+  left: -10px;
+  top: -84px;
+  background-color: rgb(45, 14, 88);
+}
+
+
+.forms{
+  display: flex;
+}
+
+.title { 
+  align-items: end;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 1px 0px;
+  color: #03A9F4;
+  display: flex;
+  font-family: 'Orbitron', sans-serif;;
+  font-size: 90px;
+  font-weight: 900;
+  justify-content: center;
+  left: -21px;
+  letter-spacing: 5.37px;
+  position: relative;
+  text-shadow: 0px -4px 8px #2196F3;
+  top: 37px;
+}
+
+.subtitle{
+  align-items: end;
+  color: rgb(172, 165, 165);
+  display: flex;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 21px;
+  font-weight: 900;
+  justify-content: center;
+  left: -13px;
+  letter-spacing: 0.67px;
+  line-height: 28px;
+  position: relative;
+  top: -75px;
+}
+
+.inputs-login {
+  left: 39px;
+  position: relative;
+  top: 84px;
+  will-change: top, left;
+}
+
+.button-forms{
+  position: relative;
+  will-change: top, left;
+  left: -255px;
+  top: 211px;
+  transition: none 0s ease 0s;
+  cursor: move;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.input{
+  border-radius: 16px;
+  color: #440A57;
+  font-family: 'Electrolize';
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  padding: 8px;
+  width: 263px;
+}
+
+.button{
+  font-size: 18px;
+  width: 119px;;
+  font-family: 'Orbitron';
+  height: 40px;
+  border-radius: 15px;
+  margin-right: 60px;
+  background-color: #BD51E0;
+  border: none;
+  color: rgb(255, 255, 255);
+
+}

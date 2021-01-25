@@ -1,8 +1,18 @@
 /* font-family: 'Bai Jamjuree', sans-serif;
-font-family: 'Electrolize', sans-serif; */
+font-family: 'Electrolize', sans-serif;
+font-family: 'Orbitron', sans-serif; */
 
 html {
   background-image: url(./image/bg.jpg);
   background-repeat: no-repeat;
   background-size: 130%;
+  background-attachment: fixed;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ 
 }
