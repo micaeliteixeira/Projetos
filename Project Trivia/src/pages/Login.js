@@ -83,7 +83,7 @@ class Login extends Component {
                     data-testid="btn-play"
                     className="button"
                   >
-                    Jogar
+                    Play
                   </button>
                   <Link to="/settings">
                     <button type="button" data-testid="btn-settings" className="button">
