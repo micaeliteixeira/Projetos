@@ -4,7 +4,9 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { Header } from '../components';
 import { resetGame, addRanking } from '../actions';
-import './Feedback.css';
+import '../style/feedback.css';
+import growth from '../image/growth.png';
+import jogging from '../image/jogging.png';
 
 class Feedback extends Component {
   componentDidMount() {
@@ -18,11 +20,16 @@ class Feedback extends Component {
 
     if (assertions < MIN_ASSERTIONS) {
       return (
-        <p data-testid="feedback-text" className="feedback-top"> Podia ser melhor...</p>
+        <div data-testid="feedback-text" className="feedback-top">
+          <img src={jogging} className="image-fb"/>
+          <p className="fb"> Podia ser melhor... </p></div>
       );
     } if (assertions >= MIN_ASSERTIONS) {
       return (
-        <p data-testid="feedback-text" className="feedback-top"> Mandou bem!</p>
+        <div data-testid="feedback-text" className="feedback-top">
+          <img src={growth} className="image-fb"/>
+          <p className="fb"> Mandou bem!</p>
+        </div>
       );
     }
   }
@@ -30,45 +37,51 @@ class Feedback extends Component {
   render() {
     const { score, assertions, reset } = this.props;
     return (
-      <div className="container-feedback">
-        <Header />
-        {this.feedbackMessage()}
-        <div className=" feedback">
-          <p>
-            Você acertou
-            {' '}
-            <span data-testid="feedback-total-question">{assertions}</span>
-            {' '}
-            questões!
-            <br />
-            Um total de
-            {' '}
-            <span data-testid="feedback-total-score">{score}</span>
-            {' '}
-            pontos
-          </p>
-        </div>
-        <div>
-          <Link to="/ranking">
-            <button
-              type="button"
-              data-testid="btn-ranking"
-              onClick={ reset }
-              className="button"
-            >
-              VER RANKING
-            </button>
-          </Link>
-          <Link to="/">
-            <button
-              type="button"
-              data-testid="btn-play-again"
-              onClick={ reset }
-              className="button"
-            >
-            JOGAR NOVAMENTE
-            </button>
-          </Link>
+      <div >
+        <p className= "title"> Trivia</p>
+        <p className= "subtitle"> The Game</p>
+        <div className="container">
+          <div className="container-feedback">
+            <Header />
+            {this.feedbackMessage()}
+            <div className="fb-q">
+              <p>
+                Você acertou
+                {' '}
+                <span data-testid="feedback-total-question">{assertions}</span>
+                {' '}
+                questões!
+                <br />
+                Um total de
+                {' '}
+                <span data-testid="feedback-total-score">{score}</span>
+                {' '}
+                pontos
+              </p>
+            </div>
+            <div className="btn-ranking">
+              <Link to="/ranking">
+                <button
+                  type="button"
+                  data-testid="btn-ranking"
+                  onClick={ reset }
+                  className="fbb"
+                >
+                  VER RANKING
+                </button>
+              </Link>
+              <Link to="/">
+                <button
+                  type="button"
+                  data-testid="btn-play-again"
+                  onClick={ reset }
+                  className=" fbb"
+                >
+                JOGAR NOVAMENTE
+                </button>
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     );

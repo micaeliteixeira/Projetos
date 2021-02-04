@@ -1,0 +1,54 @@
+.container-feedback{
+  width: 400px;
+  height: 500px;
+  border-radius: 26px 26px 26px 26px;
+  background-color: rgb(45, 14, 88);
+  position: relative;
+  top: -86px;
+  left: -9px;
+  opacity: 0.8;
+  box-shadow: 2px 3px 1px 1px rgba(68,10,87,0.66);
+}
+
+.image-fb{
+  position: relative;
+  left: 123px;
+  top: -127px;
+  width: 75%;
+}
+
+.fb {
+  position: relative;
+  left: 25px;
+  font-size: 18px;
+  top: -277px;
+  color: #03a9f4;
+  font-family: Orbitron;
+}
+
+.fb-q {
+  position: relative;
+  top: -176px;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-family: 'Bai Jamjuree';
+}
+
+.fbb{
+  font-family: 'Orbitron';
+  border-radius: 15px;
+  margin-right: 60px;
+  background-color: #BD51E0;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  width: 127px;
+  height: 60px;
+}
+
+.btn-ranking{
+  position: relative;
+  left: 43px;
+  top: -162px;
+}
