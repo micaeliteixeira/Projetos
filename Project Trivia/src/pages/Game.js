@@ -3,7 +3,8 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { Header, QuestionCard, Loading } from '../components';
 import { getQuestions, updateScoreAndAssertions } from '../actions';
-import './Game.css';
+import '../style/game.css';
+
 
 class Game extends Component {
   constructor(props) {
@@ -102,17 +103,23 @@ class Game extends Component {
   render() {
     const { isLoading, timer } = this.state;
     return (
-      <div className="class-game">
-        <Header />
-        {isLoading ? (
-          <Loading />
-        ) : (
-          <QuestionCard
-            timer={ timer }
-            startingInterval={ this.startingInterval }
-            clearIntervalToProps={ this.clearInterval }
-          />
-        )}
+      <div>
+        <p className= "title"> Trivia</p>
+        <p className= "subtitle"> The Game</p>
+        <div className="container">
+          <div className="gamer-container">
+            <Header />
+            {isLoading ? (
+              <Loading />
+            ) : (
+              <QuestionCard
+                timer={ timer }
+                startingInterval={ this.startingInterval }
+                clearIntervalToProps={ this.clearInterval }
+              />
+            )}
+          </div>
+        </div>
       </div>
     );
   }

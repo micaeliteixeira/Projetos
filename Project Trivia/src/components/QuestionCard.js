@@ -3,7 +3,7 @@ import { Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { updateScoreAndAssertions } from '../actions';
-import './QuestionCard.css';
+import '../style/QuestionCard.css';
 
 class QuestionCard extends Component {
   constructor(props) {
@@ -64,10 +64,12 @@ class QuestionCard extends Component {
     const { indexQuestion, isDisabled } = this.state;
     const { category, question } = questions[indexQuestion];
     return (
-      <div>
-        <span>{timer}</span>
-        <p data-testid="question-category">{category}</p>
-        <p data-testid="question-text">{question}</p>
+      <div className="question">
+        <div className="timer"> <span>{timer}</span></div>
+        <div className="questions-text">
+          <p data-testid="question-category">{category}</p>
+          <p data-testid="question-text">{question}</p>
+        </div>
         <div className="answers">
           <button
             data-testid="correct-answer"
@@ -100,8 +102,7 @@ class QuestionCard extends Component {
     const { answered, indexQuestion } = this.state;
     return (
       <div>
-        QUESTION CARD
-        {indexQuestion >= QUESTIONS_ANSWERED ? (
+         {indexQuestion >= QUESTIONS_ANSWERED ? (
           <Redirect to="/feedback" />
         ) : (
           this.question()
@@ -111,9 +112,10 @@ class QuestionCard extends Component {
           hidden={ !answered }
           type="button"
           data-testid="btn-next"
+          className="btn-next"
           onClick={ this.nextQuestions }
         >
-          Próxima
+       <i class="gg-arrow-right-o"/>
         </button>
       </div>
     );
