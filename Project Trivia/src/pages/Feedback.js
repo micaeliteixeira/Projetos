@@ -22,13 +22,13 @@ class Feedback extends Component {
       return (
         <div data-testid="feedback-text" className="feedback-top">
           <img src={jogging} className="image-fb"/>
-          <p className="fb"> Podia ser melhor... </p></div>
+          <p className="fb"> Could be better... </p></div>
       );
     } if (assertions >= MIN_ASSERTIONS) {
       return (
         <div data-testid="feedback-text" className="feedback-top">
           <img src={growth} className="image-fb"/>
-          <p className="fb"> Mandou bem!</p>
+          <p className="fb"> Nice job!</p>
         </div>
       );
     }
@@ -46,17 +46,17 @@ class Feedback extends Component {
             {this.feedbackMessage()}
             <div className="fb-q">
               <p>
-                Você acertou
+                You got 
                 {' '}
                 <span data-testid="feedback-total-question">{assertions}</span>
                 {' '}
-                questões!
+               question right!
                 <br />
-                Um total de
+              A total of
                 {' '}
                 <span data-testid="feedback-total-score">{score}</span>
                 {' '}
-                pontos
+                points
               </p>
             </div>
             <div className="btn-ranking">
@@ -66,8 +66,8 @@ class Feedback extends Component {
                   data-testid="btn-ranking"
                   onClick={ reset }
                   className="fbb"
-                >
-                  VER RANKING
+                >        
+                SEE RANKING
                 </button>
               </Link>
               <Link to="/">
@@ -77,7 +77,7 @@ class Feedback extends Component {
                   onClick={ reset }
                   className=" fbb"
                 >
-                JOGAR NOVAMENTE
+                PLAY AGAIN
                 </button>
               </Link>
             </div>

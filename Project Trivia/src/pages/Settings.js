@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { saveSettings, getCategories } from '../actions';
+import '../style/settings.css';
 
 class Settings extends Component {
   constructor(props) {
@@ -38,40 +39,49 @@ class Settings extends Component {
     const { category, difficulty, type } = this.state;
     return (
       <div>
-        <h1 data-testid="settings-title">CONFIGURAÇÕES</h1>
-        <form onSubmit={ this.handleSubmit }>
-          <label htmlFor="categories">
-            Category:
-            <select id="category" onChange={ this.handleChange } value={ category }>
-              {options.categories.map((item) => (
-                <option key={ item.id } value={ item.id }>
-                  { item.name }
-                </option>))}
-            </select>
-          </label>
-          <br />
-          <label htmlFor="difficulty">
-            Difficulty:
-            <select id="difficulty" onChange={ this.handleChange } value={ difficulty }>
-              {options.difficulty.map((item) => (
-                <option key={ item.id } value={ item.id }>
-                  { item.name }
-                </option>))}
-            </select>
-          </label>
-          <br />
-          <label htmlFor="type">
-            Type:
-            <select id="type" onChange={ this.handleChange } value={ type }>
-              {options.type.map((item) => (
-                <option key={ item.id } value={ item.id }>
-                  { item.name }
-                </option>))}
-            </select>
-          </label>
-          <br />
-          <button type="submit">Salvar</button>
-        </form>
+        <p className= "title"> Trivia</p>
+        <p className= "subtitle"> The Game</p>
+        <div className="container">
+          <div className="container-settings"> 
+            <h1 data-testid="settings-title" className="set">SETTINGS</h1>
+            <form onSubmit={ this.handleSubmit }>
+              <div className="div-cat">
+                <label htmlFor="categories">
+                  Category:
+                  <select id="category" onChange={ this.handleChange } value={ category }>
+                    {options.categories.map((item) => (
+                      <option key={ item.id } value={ item.id }>
+                        { item.name }
+                      </option>))}
+                  </select>
+                </label>
+                <br />
+                <label htmlFor="difficulty">
+                  Difficulty:
+                  <select id="difficulty" onChange={ this.handleChange } value={ difficulty }>
+                    {options.difficulty.map((item) => (
+                      <option key={ item.id } value={ item.id }>
+                        { item.name }
+                      </option>))}
+                  </select>
+                </label>
+                <br />
+                <label htmlFor="type">
+                  Type:
+                  <select id="type" onChange={ this.handleChange } value={ type }>
+                    {options.type.map((item) => (
+                      <option key={ item.id } value={ item.id }>
+                        { item.name }
+                      </option>))}
+                  </select>
+                </label>
+                </div>
+                <br />
+                <button className="button rank" type="submit">Play</button>
+              
+            </form>
+          </div>
+        </div>
       </div>
     );
   }

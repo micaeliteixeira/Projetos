@@ -1,0 +1,40 @@
+.container-settings{
+  width: 400px;
+  height: 500px;
+  border-radius: 26px 26px 26px 26px;
+  background-color: rgb(45, 14, 88);
+  position: relative;
+  top: -86px;
+  left: -9px;
+  opacity: 0.8;
+  box-shadow: 2px 3px 1px 1px rgba(68,10,87,0.66);
+}
+
+.set {
+  text-align: center;
+  font-family: 'Orbitron';
+  color: white;
+  margin-top:20px;
+}
+
+.div-cat{
+  width: 90%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Orbitron', sans-serif;
+  color:white;
+  font-size: large ;
+}
+#category,
+#type,
+#difficulty{
+  font-size: 18px;
+  padding: 2px;
+  width: 230px;
+  border-radius: 10px;
+  margin-left: 5px;
+  background-color: white;
+}
+
+
