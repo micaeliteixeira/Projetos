@@ -21,13 +21,13 @@ class Feedback extends Component {
     if (assertions < MIN_ASSERTIONS) {
       return (
         <div data-testid="feedback-text" className="feedback-top">
-          <img src={jogging} className="image-fb"/>
+          <img src={jogging} className="image-fb" alt="could be better img"/>
           <p className="fb"> Could be better... </p></div>
       );
     } if (assertions >= MIN_ASSERTIONS) {
       return (
         <div data-testid="feedback-text" className="feedback-top">
-          <img src={growth} className="image-fb"/>
+          <img src={growth} className="image-fb" alt="nice job img"/>
           <p className="fb"> Nice job!</p>
         </div>
       );
