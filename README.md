@@ -8,5 +8,6 @@ Oi, bem-vindo ao meu repositório de projetos !! :rocket:
    
    * Project Pixel Art
    * Project Facebook Signup
+   * Project Trivia
   
 
