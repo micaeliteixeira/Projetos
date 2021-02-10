@@ -1,0 +1,18 @@
+.gamer-container {
+  width: 400px;
+  height: 500px;
+  border-radius: 26px 26px 26px 26px;
+  background-color: rgb(45, 14, 88);
+  position: relative;
+  top: -86px;
+  left: -9px;
+  opacity: 0.8;
+  box-shadow: 2px 3px 1px 1px rgba(68,10,87,0.66);
+}
+
+.containerb{
+  position: relative;
+  left: 29px;
+  top: 276px;
+}
+

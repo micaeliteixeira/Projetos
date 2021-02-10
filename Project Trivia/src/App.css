@@ -1,0 +1,62 @@
+/* font-family: 'Bai Jamjuree', sans-serif;
+font-family: 'Electrolize', sans-serif;
+font-family: 'Orbitron', sans-serif; */
+
+html {
+  background-image: url(./image/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 130%;
+  background-attachment: fixed;
+}
+
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ 
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.title { 
+  align-items: end;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 1px 0px;
+  color: #03A9F4;
+  display: flex;
+  font-family: 'Orbitron', sans-serif;;
+  font-size: 90px;
+  font-weight: 900;
+  justify-content: center;
+  left: -21px;
+  letter-spacing: 5.37px;
+  position: relative;
+  text-shadow: 0px -4px 8px #2196F3;
+  top: 37px;
+}
+
+.subtitle{
+  align-items: end;
+  color: rgb(172, 165, 165);
+  display: flex;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 21px;
+  font-weight: 900;
+  justify-content: center;
+  left: -13px;
+  letter-spacing: 0.67px;
+  line-height: 28px;
+  position: relative;
+  top: -75px;
+}
+
+.loading {
+  font-family: 'Orbitron', sans-serif; 
+  color:white;
+  text-align: center;
+  font-size: larger;
+}

@@ -1,0 +1,36 @@
+.class-header{
+  position: relative;
+  left: 24px;
+  top: -1px;
+  margin-top: 30px;
+}
+
+.div-score{
+  font-family: Orbitron;
+  font-size: 30px;
+  color:white;
+  position: relative;
+  left: 68px;
+  top: -47px;
+}
+
+.header-player-name{
+  font-family: Orbitron;
+  font-size: 18px;
+  color:  white;
+  position: relative;
+  left: 16px;
+  top: 0px;
+}
+
+.img-gravatar {
+  width: 15%;
+  border-radius: 50%;
+}
+
+.hello {
+  display: flex;
+  position: relative;
+  left: 627px;
+  top: -262px;
+}
