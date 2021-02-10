@@ -1,7 +1,7 @@
 
 # Bem-vindo ao projeto de Trivia! 👋
 
-Este projeto é a refatoração do desing de um projeto desenvolvido em grupo durante o curso Desenvolvimento de Software Full-Stark na [Trybe](https://www.betrybe.com/), no módulo Fundamentos de Desenvolvimento Web, como forma de testar e colocar as práticas adquiridas durante o curso.
+Este projeto é a refatoração do design de um projeto desenvolvido em grupo durante o curso Desenvolvimento de Software Full-Stark na [Trybe](https://www.betrybe.com/), no módulo Fundamentos de Desenvolvimento Web, como forma de testar e colocar as práticas adquiridas durante o curso.
 
 ---
 
@@ -27,16 +27,11 @@ Este projeto é a refatoração do desing de um projeto desenvolvido em grupo du
 ## SUMÁRIO
 
 - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
-  - [Protótipo do projeto](#protótipo-do-projeto)
-- [Data de entrega](#data-de-entrega)
-- [Como desenvolver](#como-desenvolver)
-  - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
-- [Requisitos do projeto](#requisitos-do-projeto)
-  - [API de Trivia](#api-de-trivia)
-  - [Gravatar](#gravatar)
-  - [Observações técnicas](#observações-tecnicas)
+- [Antes de rodar o projeto](#antes-de-rodar-o-projeto)
+- [API de Trivia](#api-de-trivia)
+- [Gravatar](#gravatar)
 - [Lista de requisitos](#lista-de-requisitos)
-  - [Tela de início](#tela-de-inicio)
+  - [Tela de login](#tela-de-login)
     - [1 - Crie a tela de login, onde a pessoa que joga deve preencher as informações para iniciar um jogo](#1-crie-a-tela-de-login-onde-a-pessoa-que-joga-deve-preencher-as-informações-para-iniciar-um-jogo)
     - [2 - Crie o botão de iniciar o jogo](#2-crie-o-botão-de-iniciar-o-jogo)
     - [3 - Crie um botão que leva a pessoa para a tela de configuração](#3-crie-um-botão-que-leva-a-pessoa-para-tela-de-configuração)
@@ -72,7 +67,7 @@ Você deverá desenvolver um jogo de perguntas e respostas baseado no jogo **Tri
   - Visualizar a página de ranking, se quiser, ao final de cada jogo.
   - Configurar algumas opções para o jogo em uma tela de configuração acessível a partir do cabeçalho do app.
 
-<img src="">
+<img src="https://github.com/micaeliteixeira/Trybe-Projects/blob/project-trivia/Project%20Trivia/src/image/tela.png">
 
 ### Antes de rodar o projeto: 
 
@@ -104,7 +99,7 @@ A Implementação é feita baseada no e-mail. Esse email deve ser transformado e
 
 Nesse projeto, a pessoa que joga deve conseguir completar o jogo e conseguir ver seu placar depois de responder todas as 5 perguntas, além de acessar a tela de configurações e de ranking. Lembrem-se de utilizar os conhecimentos adquiridos ao longo dos últimos projetos nas ferramentas do React como o Router, Link, Redux e testes para ajudá-los a completar os requisitos.
 
-### Tela de início/login
+### Tela de login
 
 #### 1. CRIE A TELA DE LOGIN, ONDE A PESSOA QUE JOGA DEVE PREENCHER AS INFORMAÇÕES PARA INICIAR UM JOGO
 
