@@ -14,7 +14,7 @@ Este projeto é um projeto desenvolvido durante o curso Full-Stack Web Software 
 
 ---
 
-## Entregáveis 🚀:
+## Desafios 🚀:
 
    1. Crie uma barra azul no topo da página.
    2. A barra superior deve conter o logotipo do Facebook no canto esquerdo.
