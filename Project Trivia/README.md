@@ -22,6 +22,10 @@ Este projeto é a refatoração do design de um projeto desenvolvido em grupo du
   
   - Uso de API
 
+  - CSS
+  
+  - HTML
+
 ---
 ## SUMÁRIO
 
