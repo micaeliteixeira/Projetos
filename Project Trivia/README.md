@@ -1,7 +1,7 @@
 
 # Bem-vindo ao projeto de Trivia! 👋
 
-Este projeto é a refatoração do design de um projeto desenvolvido em grupo durante o curso Desenvolvimento de Software Full-Stark na [Trybe](https://www.betrybe.com/), no módulo Fundamentos de Desenvolvimento Web, como forma de testar e colocar as práticas adquiridas durante o curso.
+Este projeto é a refatoração do design de um projeto desenvolvido em grupo durante o curso Desenvolvimento de Software Full-Stack na [Trybe](https://www.betrybe.com/), no módulo Fundamentos de Desenvolvimento Web, como forma de testar e colocar as práticas adquiridas durante o curso.
 
 ---
 
@@ -23,14 +23,13 @@ Este projeto é a refatoração do design de um projeto desenvolvido em grupo du
   - Uso de API
 
 ---
-
 ## SUMÁRIO
 
 - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
 - [Antes de rodar o projeto](#antes-de-rodar-o-projeto)
 - [API de Trivia](#api-de-trivia)
 - [Gravatar](#gravatar)
-- [Lista de requisitos](#lista-de-requisitos)
+- [Lista de desafios](#lista-de-desafios)
   - [Tela de login](#tela-de-login)
     - [1 - Crie a tela de login, onde a pessoa que joga deve preencher as informações para iniciar um jogo](#1-crie-a-tela-de-login-onde-a-pessoa-que-joga-deve-preencher-as-informações-para-iniciar-um-jogo)
     - [2 - Crie o botão de iniciar o jogo](#2-crie-o-botão-de-iniciar-o-jogo)
@@ -59,7 +58,7 @@ Este projeto é a refatoração do design de um projeto desenvolvido em grupo du
 
 ## O QUE DEVERÁ SER DESENVOLVIDO
 
-Você deverá desenvolver um jogo de perguntas e respostas baseado no jogo **Trivia** _(tipo um show do milhão americano rs)_ utilizando _React e Redux_. A partir dessas demandas, teremos uma aplicação onde a pessoa usuária poderá:
+Desenvolver um jogo de perguntas e respostas baseado no jogo **Trivia** _(tipo um show do milhão americano rs)_ utilizando _React e Redux_. A partir dessas demandas, teremos uma aplicação onde a pessoa usuária poderá:
 
   - Logar no jogo e, se o email tiver cadastro no site [Gravatar](https://pt.gravatar.com/), ter sua foto associada ao perfil de usuária.
   - Acessar a página referente ao jogo, onde se deverá escolher uma das respostas disponíveis para cada uma das perguntas apresentadas. A resposta deve ser marcada antes do contador de tempo chegar a zero, caso contrário a resposta deverá ser considerada errada.
@@ -94,10 +93,10 @@ A Implementação é feita baseada no e-mail. Esse email deve ser transformado e
 
 
 
-### LISTA DE REQUISITOS
+### LISTA DE DESAFIOS
 ---
 
-Nesse projeto, a pessoa que joga deve conseguir completar o jogo e conseguir ver seu placar depois de responder todas as 5 perguntas, além de acessar a tela de configurações e de ranking. Lembrem-se de utilizar os conhecimentos adquiridos ao longo dos últimos projetos nas ferramentas do React como o Router, Link, Redux e testes para ajudá-los a completar os requisitos.
+Nesse projeto, a pessoa que joga deve conseguir completar o jogo e conseguir ver seu placar depois de responder todas as 5 perguntas, além de acessar a tela de configurações e de ranking.
 
 ### Tela de login
 
