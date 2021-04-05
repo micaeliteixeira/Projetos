@@ -6,8 +6,10 @@ Oi, bem-vindo ao meu repositório de projetos !! :rocket:
 
 ## Projetos: :hourglass:
    
-   * Project Pixel Art
-   * Project Facebook Signup
-   * Project Trivia
+   * [Projeto Pixel Art](https://github.com/micaeliteixeira/Projetos/tree/master/Project%20Pixel%20Art)
+   * [Projeto Facebook Signup](https://github.com/micaeliteixeira/Projetos/tree/master/Project%20Facebook%20Signup)
+   * [Projeto Trivia](https://github.com/micaeliteixeira/Projetos/tree/master/Project%20Trivia)
+   * [Projeto AppRecipe](https://github.com/micaeliteixeira/Projetos/tree/master/Project%20AppRecipes)
+   
   
 
