@@ -1,22 +1,18 @@
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
+# Bem-vindo ao projeto de Trivia! 👋
 
-# Boas vindas ao repositório do projeto de Receitas!
-
-Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
-
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir desse repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
+Este projeto desenvolvido em grupo durante o curso Desenvolvimento de Software Full-Stack na [Trybe](https://www.betrybe.com/), como projeto de conclusão do modulo de Desenvolvimento Fron-end.
 
 ---
 
 # HABILIDADES
-
-Nesse projeto você será capaz de:
 
   - Utilizar a Context API do React para gerenciar estado
   - Utilizar o React Hook useState
   - Utilizar o React Hook useContext
   - Utilizar o React Hook useEffect
   - Criar Hooks customizados
+  - CSS
+  - HTML
 
 ---
 
@@ -24,21 +20,11 @@ Nesse projeto você será capaz de:
 
 - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
   - [Protótipo do projeto](#protótipo-do-projeto)
-- [Data de entrega](#data-de-entrega)
-- [Como desenvolver](#como-desenvolver)
-  - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
-- [Requisitos do projeto](#requisitos-do-projeto)
-  - [Linter](#linter)
-  - [Execução de testes de requisito](#execução-de-testes-de-requisito)
-  - [API's](#apis)
+- [Antes de rodar o projeto](#antes-de-rodar-o-projeto)
+- [API's](#apis)
   - [TheMealDB API](#themealdb-api)
   - [The CockTailDB API](#the-cocktaildb-api)
-  - [Grupos de prioridade](#grupos-de-prioridade)
-  - [Observações técnicas](#observações-técnicas)
-    - [Rotas](#rotas)
-    - [localStorage](#localStorage)
-    - [Ícones](#icones)
-- [Lista de requisitos](#lista-de-requisitos)
+- [Lista de desafios](#lista-de-desafios)
   <details>
     <summary>Testes unitários</summary>
 
@@ -224,131 +210,19 @@ A base de dados serão 2 APIs distintas, uma para comidas e outra para bebidas.
 
 O layout tem como foco dispositivos móveis, então todos os protótipos vão estar desenvolvidos em telas menores.
 
-### Protótipo do projeto
+### Protótipo do projeto 
 
-Você pode acessar um protótipo no link abaixo:
+  <img src="https://github.com/micaeliteixeira/Projetos/blob/master/Project%20AppRecipes/figma.png">
 
-https://www.figma.com/file/WatDxtKl7g54QxhDi9qdbq/App-Receitas?node-id=0%3A1
 
-Lembre-se de escrever testes unitários e sinta-se livre para alterar a UI, só respeite os atributos `data-testid`, eles serão usados na correção do exercício.
+## ANTES DE RODAR O PROJETO:
 
-Você pode ler mais sobre atributos para testes [nesse link](https://www.eduardopedroso.com.br/?p=494)
-
-#### ⚠️ Lembre-se de escrever testes unitários e sinta-se livre para alterar a UI, só respeite os atributos `data-testid`, eles serão usados na correção do exercício.
-
-#### ⚠️ Para ver os comentários sobre cada componente, basta clicar no ícone de comentários no Figma (lado esquerdo superior).
-
-![image](https://res.cloudinary.com/drdpedroso/image/upload/c_scale,w_400/v1575815877/Screenshot_2019-12-08_at_11.37.25_kzt7rl.png)
-
----
-
-## DATA DE ENTREGA
-
-Projeto em grupo.
-
-Serão dez dias de projeto.
-
-O projeto tem até a seguinte data: 09/12/2020 - 14:00h para ter entregue a avaliação final.
-
----
-
-## COMO DESENVOLVER
-
-Este repositório **já conta com uma `main-group` para cada grupo**, identificada como `main-group-1` para o grupo 1, `main-group-2` para o grupo 2, e assim por diante. Para desenvolver, você sempre deve:
-
-* **Criar sua branch de desenvolvimento a partir da sua branch main**. Para isso, clone este repositório, faça o `git checkout main-group-XX && git pull` e em seguida o `git checkout -b main-group-XX-minha-feature`.
-* Para criar uma Pull Request para fazer **Code Review**, entitule-a `[GRUPO XX] Meu título` e **sempre aponte a Pull Request da sua branch para a branch `main-group-XX` do seu grupo, como no exemplo abaixo:**
-
-![Exemplo de como apontar uma Pull Request para a branch main do grupo](pull-request-para-branch-do-grupo.png)
-
-* Quando várias pessoas desenvolvem para um mesmo projeto podem ocorrer **conflitos de merge** que precisarão ser resolvidos. Prestem atenção a isso!
-
-⚠ **ATENÇÃO! É POSSÍVEL COMMITAR, POR ENGANO, NA BRANCH DE OUTRO GRUPO, ENTÃO TOME MUITO CUIDADO** ⚠
-
-### ANTES DE COMEÇAR A DESENVOLVER:
-
-### Antes de começar a desenvolver:
-
-1. Clone o repositório
-  * `git clone git@github.com:tryber/sd-06-project-recipes-app.git`.
-  * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-06-project-recipes-app`
-  * Vá para a branch do seu grupo, com `git checkout main-group-XX && git pull`, onde `XX` é o número do seu grupo. Exemplos: `main-group-1`, `main-group-22`.
-
-2. Instale as dependências e inicialize o projeto
+Instale as dependências e inicialize o projeto
   * Instale as dependências:
     * `npm install`
   * Inicialize o projeto:
     * `npm start` (uma nova página deve abrir no seu navegador com um texto simples)
-
-3. Faça alterações separadas por novas branchs criadas a partir da branch `main-group-XX`, criando uma nova branch para cada demanda
-  * Verifique que você está na branch `main-group-XX`
-    * Exemplo: `git branch`
-  * Se não estiver, mude para a branch `main-group-XX`
-    * Exemplo: `git checkout main-group-XX && git pull`
-  * Agora, crie uma branch para a demanda que você vai desenvolver do seu projeto
-    * Você deve criar uma branch com uma breve descrição da demanda a ser desenvolvida
-    * Exemplo: `git checkout -b main-group-XX-cria-campo-de-input`
-
-4. Adicione as mudanças ao _stage_ do Git e faça um `commit`
-  * Verifique que as mudanças ainda não estão no _stage_
-    * Exemplo: `git status` (devem aparecer listadas as novas alterações em vermelho)
-  * Adicione o arquivo alterado ao _stage_ do Git
-      * Exemplo:
-        * `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-        * `git status` (devem aparecer listadas as novas alterações em verde)
-  * Faça seus `commit`
-      * Exemplo:
-        * `git commit -m 'cria componente de input`
-        * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
-
-5. Adicione a sua branch com o novo `commit` ao repositório remoto
-  * Usando o exemplo anterior: `git push -u origin main-group-XX-cria-campo-de-input`
-
-6. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-06-project-recipes-app/pulls)
-  * Clique no botão verde _"New pull request"_
-  * Clique na caixa de seleção _"Compare"_ e escolha a branch do grupo, `main-group-XX`, e a sua branch **com atenção**
-  * Coloque um título para a sua _Pull Request_
-    * Exemplo: _"[GRUPO XX] Cria tela de busca"_
-  * Clique no botão verde _"Create pull request"_
-  * Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
-  * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-06-project-recipes-app/pulls) e confira que o seu _Pull Request_ está criado
-
-7. Assim que aprovado por pelo menos duas pessoas do seu grupo e o _Linter_ estiver adereçado, acesse **SEU** _Pull Request_ e clique no botão _"Merge pull request"_
-
 ---
-
-## REQUISITOS DO PROJETO
-
-Para o bom andamento deste projeto disponibilizamos, além do README a seguir, um quadro Kanban com as demandas a realizar para o projeto ser concluído com sucesso. Confira o Slack para saber como acessar o quadro! É de suma importância que o grupo se organize utilizando o quadro para maior eficiência e para que se minimizem os conflitos que a união de vários códigos trará.
-
-Além disso, você verá que os requisitos do projeto tem, além das observações técnicas e do que será validado, descrições tais quais se veriam em um projeto real. É muito importante ser capaz de ler descrições como essa e transformá-las em produtos ou, se houver dúvida, saber tirar tais dúvidas! Seguimos à disposição no Slack para isso.
-
-
-Este repositório já contem um _template_ com um App React criado, configurado e com os testes automatizados que fazem parte da correção. Ele também conta com uma branch **main-group** para cada grupo, identificada como `main-group-1` para o grupo 1, `main-group-2` para o grupo 2 e assim por diante.
-
-### Linter
-
-Para garantir a qualidade do seu código de forma a tê-lo mais legível, de mais fácil manutenção e seguindo as boas práticas de desenvolvimento nós utilizamos neste projeto o linter `ESLint`. Para rodar o linter localmente no seu projeto, execute o comando abaixo:
-
-```bash
-npm run lint
-```
-
-⚠ **PULL REQUESTS COM ISSUES DE LINTER NÃO SERÃO AVALIADAS. ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!** ⚠
-
-### Execução de testes de requisito
-
-Para o projeto ser validado, todos os testes de comportamento devem passar. É possível testar isso local rodando `npm run cy`. Esse comando roda a suite de testes do Cypress que valida se o fluxo geral e os requisitos funcionais estão funcionando como deveriam. Você pode também executar o comando `npm run cy:open` para ter um resultado visual dos testes executados.
-
-Esses testes não consideram o layout de maneira geral, mas sim os atributos e informações corretas, então preste atenção nisso! Os testes te darão uma mensagem de erro caso não estejam passando (seja qual for o motivo). 😉
-
-**Atenção:** Sua aplicação deve estar rodando para o Cypress no terminal poder testar.
-
-#### Além dos testes da avaliação automatizada, um dos requisitos do projeto se baseia em **escrever testes unitários que cubram pelo menos 90% do projeto**. Na [documentação do Jest CLI](https://jestjs.io/docs/en/cli) é possível ver como essa cobertura é coletada.
-
 ## APIs
 
 ### TheMealDB API
@@ -426,19 +300,6 @@ Os ingredientes seguem uma ordem lógica onde o nome dele (`strIngredient1`) e a
 
 É possível listar todas as `categorias`, `áreas` e `ingredientes`:
 
-```
-categorias: https://www.themealdb.com/api/json/v1/1/list.php?c=list
-areas: https://www.themealdb.com/api/json/v1/1/list.php?a=list
-ingredientes: https://www.themealdb.com/api/json/v1/1/list.php?i=list
-```
-
-As fotos dos ingredientes vêm de um end-point padronizado com a seguinte lógica:
-
-```
-https://www.themealdb.com/images/ingredients/{nome-do-ingrediente}.png
-// exemplo com "lime
-https://www.themealdb.com/images/ingredients/Lime.png
-```
 
 ### The CockTailDB API
 
@@ -518,131 +379,7 @@ Os ingredientes seguem uma ordem lógica onde o nome dele (`strIngredient1`) e a
 
 ---
 
-### Grupos de prioridade
-
-Os requisitos são organizados por telas e dessa vez, vocês que irão definir as prioridades! Usem com sabedoria!
-
-Recomendamos que os requisitos de uma mesma tela sejam feitos em sequência ou paralelamente por pessoas se comunicando bastante, para não haver conflitos. Embora requisitos de uma mesma tela com prioridades iguais possam ser feitos em paralelo, mas isso exigirá organização por parte das pessoas que estão dividindo a tarefa para não ter conflitos.
-
-## Observações técnicas
-
-Algumas coisas devem seguir um padrão pré-estabelecido para que os teste de correção funcionem corretamente.
-
-⚠️ Leia-os atentamente e siga à risca o que for pedido. O não cumprimento de um requisito, total ou parcialmente, impactará em sua avaliação. ⚠️
-
-* Os requisitos do seu projeto são avaliados automaticamente, sendo utilizada a resolução de tela de `360 x 640` (360 pixels de largura por 640 pixels de altura).
-
-    - ⚠️ Logo, recomenda-se desenvolver seu projeto usando a mesma resolução, via instalação [deste plugin](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en) do `Chrome` para facilitar a configuração da resolução. ⚠️
-
-### Rotas
-
-As rotas a serem utilizadas na aplicação devem ser as seguintes:
-
-* Tela de login: `/`;
-* Tela principal de receitas de comidas: `/comidas`;
-* Tela principal de receitas de bebidas: `/bebidas`;
-* Tela de detalhes de uma receita de comida: `/comidas/{id-da-receita}`;
-* Tela de detalhes de uma receita de bebida: `/bebidas/{id-da-receita}`;
-* Tela de receita em processo de comida: `/comidas/{id-da-receita}/in-progress`;
-* Tela de receita em processo de bebida: `/bebidas/{id-da-receita}/in-progress`;
-* Tela de explorar: `/explorar`;
-* Tela de explorar comidas: `/explorar/comidas`;
-* Tela de explorar bebidas: `/explorar/bebidas`;
-* Tela de explorar comidas por ingrediente: `/explorar/comidas/ingredientes`;
-* Tela de explorar bebidas por ingrediente: `/explorar/bebidas/ingredientes`;
-* Tela de explorar comidas por local de origem: `/explorar/comidas/area`;
-* Tela de perfil: `/perfil`;
-* Tela de receitas feitas: `/receitas-feitas`;
-* Tela de receitas favoritas: `/receitas-favoritas`.
-
-### `localStorage`
-
-O uso de `localStorage` é necessário para que as informações não se percam caso a pessoa atualize a página.
-O correto é usar os valores para iniciar sua store ou seu context.
-
-No `localStorage` do navegador:
-
-* a chave `mealsToken` deve conter a seguinte estrutura:
-```
-1
-```
-
-* a chave `cocktailsToken` deve conter a seguinte estrutura:
-```
-1
-```
-
-* a chave `user` deve conter a seguinte estrutura:
-```
-{
-    email: email-da-pessoa
-}
-```
-
-* a chave `doneRecipes` deve conter a seguinte estrutura:
-```
-[{
-    id: id-da-receita,
-    type: comida-ou-bebida,
-    area: area-da-receita-ou-texto-vazio,
-    category: categoria-da-receita-ou-texto-vazio,
-    alcoholicOrNot: alcoholic-ou-non-alcoholic-ou-texto-vazio,
-    name: nome-da-receita,
-    image: imagem-da-receita,
-    doneDate: quando-a-receita-foi-concluida,
-    tags: array-de-tags-da-receita-ou-array-vazio
-}]
-```
-
-* a chave `favoriteRecipes` deve conter a seguinte estrutura:
-```
-[{
-    id: id-da-receita,
-    type: comida-ou-bebida,
-    area: area-da-receita-ou-texto-vazio,
-    category: categoria-da-receita-ou-texto-vazio,
-    alcoholicOrNot: alcoholic-ou-non-alcoholic-ou-texto-vazio,
-    name: nome-da-receita,
-    image: imagem-da-receita
-}]
-```
-
-* a chave `inProgressRecipes` deve conter a seguinte estrutura:
-```
-{
-    cocktails: {
-        id-da-bebida: [lista-de-ingredientes-utilizados],
-        ...
-    },
-    meals: {
-        id-da-comida: [lista-de-ingredientes-utilizados],
-        ...
-    }
-}
-```
-
-**Observações técnicas**
-
-* `id-da-bebida` e `id-da-comida` representam o ID de uma bebida e comida, respectivamente, e cada item da lista de ingredientes da respectiva receita deve ser representado apenas pelo número do ingrediente no formato numérico.
-
-### Ícones
-
-Os ícones a serem utilizados na aplicação estão disponíveis do diretório `src/image/`. Esses ícones serão utilizados pelos testes da avaliação automatizada, então certifique-se de utilizá-los nos requisitos e de não renomeá-los.
-
-Os ícones são:
-
-* `profileIcon.svg`;
-* `searchIcon.svg`;
-* `drinkIcon.svg`;
-* `exploreIcon.svg`;
-* `mealIcon.svg`;
-* `shareIcon.svg`;
-* `whiteHeartIcon.svg`;
-* `blackHeartIcon.svg`.
-
----
-
-### LISTA DE REQUISITOS
+### LISTA DE DESAFIOS 
 
 Nesse projeto, a pessoa que estiver utilizando o app pode procurar uma receita especifica, explorar receitas baseado em diferentes critérios, favoritar e fazer as receitas entre outras funcionalidades.
 
@@ -657,12 +394,6 @@ As telas sofrem variações dependendo do tipo da receita (se é comida ou bebid
 
 ### 2 - Crie todos os elementos que devem respeitar os atributos descritos no protótipo para a tela de login
 
-  **Observações técnicas**
-
-  * O input de email deve possuir o atributo `data-testid="email-input"`;
-  * O input de senha deve possuir o atributo `data-testid="password-input"`;
-  * O botão "Entrar" deve possuir o atributo `data-testid="login-submit-btn"`.
-
 ### 3 - Desenvolva a tela de maneira que a pessoa deve conseguir escrever seu email no input de email
 
 ### 4 - Desenvolva a tela de maneira que a pessoa deve conseguir escrever sua senha no input de senha
@@ -670,13 +401,6 @@ As telas sofrem variações dependendo do tipo da receita (se é comida ou bebid
 ### 5 - Desenvolva a tela de maneira que o formulário só seja válido após um email válido e uma senha de mais de 6 caracteres serem preenchidos
 
 O formulário só fica válido após um email válido e uma senha de mais de 6 caracteres serem preenchidos. Caso o formulário esteja inválido, o botão de submeter deve estar desativado, contendo a propriedade `disabled`. Caso contrário, deve estar ativado, não contendo a propriedade `disabled`.
-
-  **Observações técnicas**
-
-  * O botão deve estar desativado se o email for inválido;
-  * O botão deve estar desativado se a senha deve tiver 6 caracteres ou menos;
-  * O botão deve estar ativado se o email e a senha forem válidos.
-
 
 ### 6 - Salve 2 tokens no localStorage após a submissão, identificados pelas chaves mealsToken e cocktailsToken
 
@@ -700,33 +424,8 @@ O formulário só fica válido após um email válido e uma senha de mais de 6 c
 
 ### 9 - Implemente os elementos do header na tela principal de receitas, respeitando os atributos descritos no protótipo
 
-  **Observações técnicas**
-
-  * Possui os data-testids `profile-top-btn`, `page-title` e `search-top-btn`.
-
 
 ### 10 - Implemente um ícone para a tela de perfil, um título e um ícone para a busca, caso exista no protótipo
-
-Todas as [rotas](#rotas) serão verificadas. Os ícones podem ser encontrados em `src/images/profileIcon.svg` e em `src/images/searchIcon.svg`.
-
-  **Observações técnicas**
-
-  * Não tem header na tela de login;
-  * O header tem os ícones corretos na tela de principal de receitas de comidas;
-  * O header tem os ícones corretos na tela de principal de receitas de bebidas;
-  * Não tem header na tela de detalhes de uma receita de comida;
-  * Não tem header na tela de detalhes de uma receita de bebida;
-  * Não tem header na tela de receita em processo de comida;
-  * Não tem header na tela de receita em processo de bebida;
-  * O header tem os ícones corretos na tela de explorar;
-  * O header tem os ícones corretos na tela de explorar comidas;
-  * O header tem os ícones corretos na tela de explorar bebidas;
-  * O header tem os ícones corretos na tela de explorar comidas por ingrediente;
-  * O header tem os ícones corretos na tela de explorar bebidas por ingrediente;
-  * O header tem os ícones corretos na tela de explorar comidas por local de origem;
-  * O header tem os ícones corretos na tela de perfil;
-  * O header tem os ícones corretos na tela de receitas feitas;
-  * O header tem os ícones corretos na tela de receitas favoritas.
 
 ### 11 - Redirecione a pessoa usuária para a tela de perfil ao clicar no botão de perfil
 
@@ -745,16 +444,6 @@ Todas as [rotas](#rotas) serão verificadas. Os ícones podem ser encontrados em
 
 ### 13 - Implemente os elementos da barra de busca respeitando os atributos descritos no protótipo
 
-Deve existir os data-testids tanto da barra de busca quanto de todos os radio-buttons.
-
-  **Observações técnicas**
-
-  * O input de busca deve possuir o atributo `data-testid="search-input"`;
-  * O radio button de busca de ingrediente deve possuir o atributo `data-testid="ingredient-search-radio"`;
-  * O radio button de busca por nome deve possuir o atributo `data-testid="name-search-radio"`;
-  * O radio button de busca da primeira letra deve possuir o atributo `data-testid="first-letter-search-radio"`.
-  * O botão de busca deve possuir o atributo `data-testid="exec-search-btn"`
-
 ### 14 - Posicione a barra logo abaixo do header e implemente 3 radio buttons: Ingrediente, Nome e Primeira letra
 
 A barra de busca deve ficar logo abaixo do header e deve possuir 3 _radio buttons_: `Ingrediente`, `Nome` e `Primeira letra`. Eles, em conjunto com a `search-input`, devem mudar a forma como serão filtradas as receitas após clicar no botão `Buscar`.  Os _endpoints_ da API que você deve usar podem ser consultados [aqui para a API de comidas](https://www.themealdb.com/api.php) e [aqui para a API de bebidas](https://www.thecocktaildb.com/api.php).
@@ -768,8 +457,6 @@ A barra de busca deve ficar logo abaixo do header e deve possuir 3 _radio button
 
 ##### Exemplo: Ao selecionar `Ingrediente` e buscar por `chicken`, deve-se utilizar o endpoint `https://www.themealdb.com/api/json/v1/1/filter.php?i=chicken`.
 
-##### Observação: Para esse requisito será verificada apenas a tela principal de receitas de comidas.
-
 ### 15 - Busque na API de comidas caso a pessoa esteja na página de comidas e na de bebidas caso esteja na de bebidas
 
   **Observações técnicas**
@@ -778,7 +465,6 @@ A barra de busca deve ficar logo abaixo do header e deve possuir 3 _radio button
   * Na tela de bebidas, se o radio selecionado for `Nome`, a busca na API é feita corretamente pelo nome. O endpoint utilizado deve ser `https://www.thecocktaildb.com/api/json/v1/1/search.php?s={nome}`;
   * Na tela de bebidas, se o radio selecionado for Primeira letra, a busca na API é feita corretamente pelo primeira letra. O endpoint utilizado deve ser `https://www.thecocktaildb.com/api/json/v1/1/search.php?f={primeira-letra}`;
   * Na tela de bebidas, se o radio selecionado for `Primeira letra` e a busca na API for feita com mais de uma letra, deve-se exibir um `alert` com a mensgem "Sua busca deve conter somente 1 (um) caracter".
-##### Observação: Para esse requisito será verificada apenas a tela principal de receitas de bebidas, já que a de comidas já foi verificada no requisito 15.
 
 ### 16 - Redirecione para a tela de detalhes da receita caso apenas uma receita seja encontrada, com o ID da mesma na URL
 
@@ -811,42 +497,15 @@ A barra de busca deve ficar logo abaixo do header e deve possuir 3 _radio button
 
   Todos os elementos devem respeitar os atributos descritos no protótipo para o menu inferior disponível na tela principal de receitas
 
-  **Observações técnicas**
-
-  * O menu inferior deve ter possuir o atributo `data-testid="footer"`;
-  * O elemento que leva para a página de drinks deve possuir o atributo `data-testid="drinks-bottom-btn"`;
-  * O elemento que leva para a página de explorar deve possuir o atributo `data-testid="explore-bottom-btn"`;
-  * O elemento que leva para a página de comidas deve possuir o atributo `data-testid="food-bottom-btn"`.
-
 ### 20 - Posicione o menu inferior de forma fixa e apresente 3 ícones: um para comidas, um para bebidas e outro para exploração
 
   **Observações técnicas**
 
   * O menu inferior deve ficar fixado sempre ao final da página;
-  * Apresenta os ícones corretos (drinkIcon.svg, exploreIcon.svg e mealIcon.svg, disponíveis na pasta `src/images/`).
 
 ### 21 - Exiba o menu inferior apenas nas telas indicadas pelo protótipo
 
 O menu inferior deve aparecer somente nas telas indicas no protótipo, como a de comida, de explorar e de perfil.
-
-  **Observações técnicas**
-
-  * Não tem footer na tela de login;
-  * Tem footer na tela de principal de receitas de comidas;
-  * Tem footer na tela de principal de receitas de bebidas;
-  * Não tem footer na tela de detalhes de uma receita de comida;
-  * Não tem footer na tela de detalhes de uma receita de bebida;
-  * Não tem footer na tela de receita em processo de comida;
-  * Não tem footer na tela de receita em processo de bebida;
-  * Tem footer na tela de explorar;
-  * Tem footer na tela de explorar comidas;
-  * Tem footer na tela de explorar bebidas;
-  * Tem footer na tela de explorar comidas por ingrediente;
-  * Tem footer na tela de explorar bebidas por ingrediente;
-  * Tem footer na tela de explorar comidas por local de origem;
-  * Tem footer na tela de perfil;
-  * Não tem footer na tela de receitas feitas;
-  * Não tem footer na tela de receitas favoritas.
 
 ### 22 - Redirecione a pessoa usuária para uma lista de cocktails ao clicar no ícone de bebidas
 
@@ -909,297 +568,83 @@ As categorias disponíveis devem ser obtidas através da API de [comidas](https:
 
 Ou seja, se outro filtro de categoria for selecionado, ele deve substituir o anterior.
 
-  **Observações técnicas**
-
-  * Caso as receitas sejam de comida apenas um filtro de categoria deve poder ser selecionado por vez;
-  * Caso as receitas sejam de bebida apenas um filtro de categoria deve poder ser selecionado por vez.
-
 ### 31 - Desenvolva o filtro de categorias com a opção de filtrar por todas as categorias
 
 Ou seja, retornando novamente todas as receitas. O nome do filtro deve ser "All".
-
-  **Observações técnicas**
-
-  * Caso as receitas sejam de comida deve existir a opção de filtrar por todas as categorias;
-  * Caso as receitas sejam de bebida deve existir a opção de filtrar por todas as categorias.
 
 ### 32 - Redirecione a pessoa usuária, ao clicar no card, para a tela de detalhes, que deve mudar a rota e conter o id da receita na URL
 
   Além de dizer se a pessoa veio da tela de comidas ou de bebidas. Exemplo: `/comidas/{id-da-receita}`.
 
-  **Observações técnicas**
-
-  * Caso as receitas sejam de comida a rota deve mudar para a tela de detalhes da receita;
-  * Caso as receitas sejam de bebida a rota deve mudar para a tela de detalhes da receita.
-
 ## Tela de detalhes de uma receita
 
 ### 33 - Implemente os elementos da tela de detalhes de uma receita respeitando os atributos descritos no protótipo
 
-A verificação será feita a partir dos atributos data-testids:
-
-  * A foto deve possuir o atributo `data-testid="recipe-photo"`;
-  * O título deve possuir o atributo `data-testid="recipe-title"`;
-  * O botão de compartilhar deve possuir o atributo `data-testid="share-btn"`;
-  * O botão de favoritar deve possuir o atributo `data-testid="favorite-btn"`;
-  * O texto da categoria deve possuir o atributo `data-testid="recipe-category"`;
-  * Os ingredientes devem possuir o atributo `data-testid="${index}-ingredient-name-and-measure"`;
-  * O texto de instruções deve possuir o atributo `data-testid="instructions"`;
-  * O vídeo, presente somente na tela de comidas, deve possuir o atributo `data-testid="video"`;
-  * O card de receitas recomendadas deve possuir o atributo `data-testid="${index}-recomendation-card"`;
-  * O botão de iniciar receita deve possuir o atributo `data-testid="start-recipe-btn"`;
-
-  **Observações técnicas**
-
-  * A tela de comida possui todos os atributos data-testid;
-  * A tela de bebidas possui todos os atributos data-testid.
-
 ### 34 - Realize uma request para a API passando o `id` da receita que deve estar disponível nos parâmetros da URL
-
-  **Observações técnicas**
-
-  * Verifica se a requisição para a API de comidas foi realizada. O endpoint utilizado deve ser `https://www.themealdb.com/api/json/v1/1/lookup.php?i={id-da-receita}`;
-  * Verifica se a requisição para a API de bebidas foi realizada. O endpoint utilizado deve ser `https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i={id-da-receita}`.
-
+  
 ### 35 - Desenvolva a tela de forma que contenha uma imagem da receita, o título, a categoria (ou se é ou não alcoólico), uma lista de ingredientes seguidos pelas quantidades, instruções, um vídeo do youtube "embedado" e recomendações
-
-A verificação será feita através das receitas retornadas pela API, como por exemplo, o texto dos ingredientes e das instruções.
-
-  Lembre-se: O vídeo do youtube só deve estar disponível para receitas de comida, já que não é retornado pela [API de bebidas](https://www.thecocktaildb.com/api.php).
-
-  **Observações técnicas**
-
-  * Verifica se os elementos descritos no protótipo existem na tela de detalhes de comida;
-  * Verifica se os elementos descritos no protótipo existem na tela de detalhes de bebida.
-
+ 
 ### 36 - Implemente as recomendações, para receitas de comida, a recomendação deverá ser bebida e vice-versa
-
-  **Observações técnicas**
-
-  * Verifica se a requisição para a API de bebidas foi realizada. O endpoint utilizado deve ser `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=`;
-  * Verifica se a requisição para a API de comidas foi realizada. O endpoint utilizado deve ser `https://www.themealdb.com/api/json/v1/1/search.php?s=`.
 
 ### 37 - Implemente os cards de recomendação, onde serão 6 cards, mas mostrando apenas 2 e o scroll é horizontal, similar a um `carousel`
 
-  **Observações técnicas**
-
-  * Verifica se existem todas as recomendações na tela de detalhes de uma comida. Apenas as 6 primeiras bebidas devem ser exibidas;
-  * Verifica se existem todas as recomendações na tela de detalhes de uma bebida. Apenas as 6 primeiras comidas devem ser exibidas.
-
 ### 38 - Desenvolva um botão de nome "Iniciar Receita" que deve ficar fixo na parte de baixo da tela o tempo todo
-
-  **Observações técnicas**
-
-  * Verifica posicionamento do botão na tela de detalhes de comida;
-  * Verifica posicionamento do botão na tela de detalhes de bebida.
-
+ 
 ### 39 - Implemente a solução de forma que caso a receita já tenha sido feita, o botão "Iniciar Receita" deve sumir
-
-  **Observações técnicas**
-
-  * Verifica se botão de iniciar receita não é visível na tela de detalhes de uma comida;
-  * Verifica se botão de iniciar receita não é visível na tela de detalhes de uma bebida.
 
 ### 40 - Implemente a solução de modo que caso a receita tenha sido iniciada mas não finalizada, o texto do botão deve ser "Continuar Receita"
 
-  **ObservaçÕes técnicas**
-
-  * Verifica botão de "Continuar Receita" na tela de detalhes de uma comida;
-  * Verifica botão de "Continuar Receita" na tela de detalhes de uma bebida
-
 ### 41 - Redirecione a pessoa usuário caso o botão "Iniciar Receita" seja clicado, a rota deve mudar para a tela de receita em processo
-
-  **Observações técnicas**
-
-  * Redireciona para tela de receita da comida em processo;
-  * Redireciona para tela de receita da bebida em processo.
-
+ 
 ### 42 - Implemente um botão de compartilhar e um de favoritar a receita
 
-  **Observações técnicas**
-
-  * Verifica se os botões estão disponíveis na tela de detalhes de uma comida;
-  * Verifica se os botões estão disponíveis na tela de detalhes de uma bebida.
-
-### 43 - Implemente a solução de forma que, ao clicar no botão de compartilhar, o link da receita dentro do app deve ser copiado para o clipboard e uma mensagem avisando que o link foi copiado deve aparecer
-
-O ícone do botão de compartilhar pode ser encontrado em `src/images/shareIcon.svg`.
-
-  **Observações técnicas**
-
-  * Verifica a mensagem "Link copiado!" e se o link da receita da comida foi copiado para o clipboard;
-  * Verifica a mensagem "Link copiado!" e se o link da receita da bebida foi copiado para o clipboard.
+ ### 43 - Implemente a solução de forma que, ao clicar no botão de compartilhar, o link da receita dentro do app deve ser copiado para o clipboard e uma mensagem avisando que o link foi copiado deve aparecer
 
 ### 44 - Implemente o ícone do coração (favorito) de maneira que, deve vir preenchido caso a receita esteja favoritada e "despreenchido" caso contrário
 
-Os ícones dos botões podem ser encontrados em `src/images/whiteHeartIcon.svg` e em `src/images/blackHeartIcon.svg`, respectivamente.
-
-  **Observações técnicas**
-
-  * Verifica se a comida favoritada vem com o coração preenchido;
-  * Verifica se a comida não favoritada vem com o coração "despreenchido";
-  * Verifica se a bebida favoritada vem com o coração preenchido;
-  * Verifica se a bebida não favoritada vem com o coração "despreenchido".
-
 ### 45 - Implemente a lógica no botão de favoritar, caso seja clicado, o ícone do coração deve mudar seu estado atual, caso esteja preenchido deve mudar para "despreenchido" e vice-versa
-
-  **Observações técnicas**
-
-  * Favorita a comida;
-  * Desfavorita a comida;
-  * Favorita a bebida;
-  * Desfavorita a bebida.
 
 ### 46 - Salve as receitas favoritas no `localStorage` na chave `favoriteRecipes`
 
   * O formato deve ser `[{ id, type, area, category, alcoholicOrNot, name, image }]`.
   * As receitas feitas devem ser salvas em `localStorage` na chave `doneRecipes` no formato `[{ id, type, area, category, alcoholicOrNot, name, image, doneDate, tags }]`.
 
-  **Observações técnicas**
-
-  * Verifica se após favoritar receita de uma comida, ela é salva corretamente no localStorage;
-  * Verifica se após favoritar receita de uma bebida, ela é salva corretamente no localStorage.
-
-<!-- ### 47 - A cobertura de testes unitários deve ser de no mínimo 90% -->
-
 ## Tela de receita em progresso
 
 ### 47 - Desenvolva a tela de maneira que contenha uma imagem da receita, seu titulo, sua categoria (ou se a bebida é alcoólica ou não) uma lista de ingredientes com suas respectivas quantidade e suas instruções
 
-Verifica se os atributos data-testid estão presentes na tela com suas respectivas quantidades:
-
-  * A foto deve possuir o atributo `data-testid="recipe-photo"`;
-  * O título deve possuir o atributo `data-testid="recipe-title"`;
-  * O botão de compartilhar deve possuir o atributo `data-testid="share-btn"`;
-  * O botão de favoritar deve possuir o atributo `data-testid="favorite-btn"`;
-  * O texto da categoria deve possuir o atributo `data-testid="recipe-category"`;
-  * Os ingredientes devem possuir o atributo `data-testid=${index}-ingredient-step`, a verificação será feita pelo length do atributo.
-  * O elemento de instruções deve possuir o atributo `data-testid="instructions"`;
-  * O botão para finalizar a receita deve possuir o atributo `data-testid="finish-recipe-btn"`.
-
-  **Observações técnicas**
-
-  * Verifica elementos de uma receita de comida;
-  * Verifica elementos de uma receita de bebida.
-
 ### 48 - Desenvolva um checkbox para cada item da lista de ingredientes
-
-  **Observações técnicas**
-
-  * Todos os ingredientes de uma receita de comida possuem um checkbox;
-  * Todos os ingredientes de uma receita de bebida possuem um checkbox.
 
 ### 49 - Implemente uma lógica que, ao clicar no checkbox de um ingrediente, o nome dele deve ser "riscado" da lista
 
 Ao clicar no checkbox, o item deve ser riscado, mostrando que esse passo foi finalizado
 
-  **Observações técnicas**
-
-  * Verifica se é possível marcar todos os passos da receita de comida;
-  * Verifica se é possível marcar todos os passos da receita de bebida.
-
 ### 50 - Salve o estado do progresso, que deve ser mantido caso a pessoa atualize a página ou volte para a mesma receita
 
 O progresso das receitas devem ser salvos em `localStorage` na chave` inProgressRecipes` no formato especificado na seção [`localStorage`](#localStorage);
 
-  **Observações técnicas**
-
-- Salva o progresso de uma receita de comida em andamento;
-- Salva o progresso de uma receita de bebida em andamento;
 
 ### 51 - Desenvolva a lógica de favoritar e compartilhar, a lógica da tela de detalhes de uma receita se aplica aqui
-
-  **Observações técnicas**
-
-  * Verifica se os botões estão disponíveis na tela de detalhes de uma comida;
-  * Verifica se os botões estão disponíveis na tela de detalhes de uma bebida;
-  * Verifica a mensagem "Link copiado!" e se o link da receita da comida foi copiado para o clipboard;
-  * Verifica a mensagem "Link copiado!" e se o link da receita da bebida foi copiado para o clipboard;
-  * Verifica comida favoritada;
-  * Verifica comida não favoritada;
-  * Verifica bebida favoritada;
-  * Verifica bebida não favoritada;
-  * Favorita comida;
-  * Desfavorita comida;
-  * Favorita bebida;
-  * Desfavorita bebida;
-  * Favorita receita de uma comida;
-  * Favorita receita de uma bebida.
 
 ### 52 - Implemente a solução de maneira que o botão de finalizar receita só pode estar habilitado quando todos os ingredientes estiverem _"checkados"_ (marcados)
 
   O botão deve ficar desabilitado em quanto todos os checkboxs não forem marcados.
 
-  **Observações técnicas**
-
-  * Verifica se botão para finalizar está desabilitado em receitas de comidas;
-  * Verifica se botão para finalizar está desabilitado em receitas de bebidas;
-  * Verifica se botão para finalizar está habilitado em receitas de comidas;
-  * Verifica se botão para finalizar está habilitado em receitas de bebidas.
-
 ### 53 - Redirecione a pessoa usuária após clicar no botão "Finalizar receita", para a página de receitas feitas, cuja rota deve ser `/receitas-feitas`
-
-  **Observações técnicas**
-
-  * Redireciona após concluir uma receita de comida;
-  * Redireciona após concluir uma receita de bebida.
 
 ## Tela de receitas feitas
 
 ### 54 - Implemente os elementos da tela de receitas feitas respeitando os atributos descritos no protótipo
 
-  **Observações técnicas**
-
-  * Todos os data-testids estão presentes:
-    * O botão de filtro `All` deve ter o atributo `data-testid="filter-by-all-btn"`;
-    * O botão de filtro `Food` deve ter o atributo `data-testid="filter-by-food-btn"`;
-    * O botão de `Drinks` deve ter o atributo `data-testid="filter-by-drink-btn"`;
-    * O imagem do card de receita deve ter o atributo `data-testid="${index}-horizontal-image"`;
-    * O texto da categoria da receita deve ter o atributo `data-testid="${index}-horizontal-top-text"`;
-    * O texto do nome da receita deve ter o atributo `data-testid="${index}-horizontal-name"`;
-    * O texto da data que a receita foi feita deve ter o atributo `data-testid="${index}-horizontal-done-date"`;
-    * O elemento de compartilhar a receita deve ter o atributo `data-testid="${index}-horizontal-share-btn"`;
-    * As `tags` da receita devem possuir o atributo `data-testid=${index}-${tagName}-horizontal-tag`;
-
 ### 55 - Desenvolva a tela de maneira que, caso a receita do card seja uma comida, ela deve possuir: a foto da receita, o nome, a categoria, a area, a data em que a pessoa fez a receita, as 2 primeiras tags retornadas pela API e um botão de compartilhar
-
-O ícone do botão de compartilhar pode ser encontrado em `src/images/shareIcon.svg`.
-
-  **ObservaçÕes técnicas**
-
-  * O card possui os atributos corretos de uma comida
 
 ### 56 - Desenvolva a tela de maneira que, caso a receita do card seja uma bebida, ela deve possuir: a foto da receita, o nome, se é alcoólica, a data em que a pessoa fez a receita e um botão de compartilhar
 
-O ícone do botão de compartilhar pode ser encontrado em `src/images/shareIcon.svg`.
-
-  **Observações técnicas**
-
-  * O card possui os atributos corretos de uma bebida.
-
 ### 57 - Desenvolva a solução de maneira que o botão de compartilhar deve copiar a URL da tela de detalhes da receita para o clipboard
-
-  **ObservaçÕes técnicas**
-
-  * Ao clicar no botão de compartilhar deve aparecer a mensagem "Link copiado!";
-  * A URL da tela de detalhes da receita é copiada para o clipboard.
 
 ### 58 - Implemente 2 botões que filtram as receitas por comida ou bebida e um terceiro que remove todos os filtros
 
-Os nomes dos botões devem ser "Food", "Drinks" e "All", respectivamente.
-
-  **Observações técnicas**
-
-  * Ao clicar no botão "Food" as receitas devem ser filtradas por comidas;
-  * Ao clicar no botão "Drinks" as receitas devem ser filtradas por bebidas;
-  * Ao clicar no botão "All" o filtro deve ser removido.
-
 ### 59 - Redirecione para a tela de detalhes da receita caso seja clicado na foto ou no nome da receita
-
-  **Observações técnicas**
-
-  * Ao clicar na foto da receita, a rota deve mudar para a tela de detalhes daquela receita;
-  * Ao clicar no nome da receita, a rota deve mudar para a tela de detalhes daquela receita.
 
 ## Tela de receitas favoritas
 
@@ -1207,99 +652,36 @@ Os nomes dos botões devem ser "Food", "Drinks" e "All", respectivamente.
 
 ### 61 - Desenvolva a tela de maneira que, caso a receita do card seja uma comida, ela deve possuir: a foto da receita, o nome, a categoria, a area, um botão de compartilhar e um de "desfavoritar"
 
-Os ícones dos botões podem ser encontrados em `src/images/shareIcon.svg` e em `src/images/blackHeartIcon.svg`, respectivamente.
-
-  **Observações técnicas**
-
-  * O card possui os atributos corretos de uma comida.
 
 ### 62 - Desenvolva a tela de maneira que, caso a receita do card seja uma bebida, ela deve possuir: a foto da receita, o nome, se é alcoólica ou não, um botão de compartilhar e um de "desfavoritar"
 
-Os ícones dos botões podem ser encontrados em `src/images/shareIcon.svg` e em `src/images/blackHeartIcon.svg`, respectivamente.
-
-  **Observações técnicas**
-
-  * O card possui os atributos corretos de uma bebida.
-
 ### 63 - Desenvolva a solução de maneira que o botão de compartilhar deve copiar a URL da tela de detalhes da receita para o clipboard
-
-  **Observações técnicas**
-
-  * Ao clicar no botão de compartilhar deve aparecer a mensagem "Link copiado!";
-  * A URL da tela de detalhes da receita é copiada para o clipboard.
 
 ### 64 - Desenvolva a solução de maneira que o botão de "desfavoritar" deve remover a receita da lista de receitas favoritas do `localStorage` e da tela
 
-  **Observações técnicas**
-
-  * Ao clicar no botão de "desfavoritar" a respectiva receita é removida da tela;
-  * Ao clicar no botão de "desfavoritar" a respectiva receita é removida do `localStorage`.
-
 ### 65 - Implemente 2 botões que filtram as receitas por comida ou bebida e um terceiro que remove todos os filtros
 
-Os nomes dos botões devem ser "Food", "Drinks" e "All", respectivamente
-
-  **ObservaçÕes técnicas**
-
- * Ao clicar no botão "Food" as receitas devem ser filtradas por comidas;
- * Ao clicar no botão "Drinks" as receitas devem ser filtradas por bebidas;
- * Ao clicar no botão "All" o filtro deve ser removido.
-
 ### 66 - Redirecione a pessoa usuária ao clicar na foto ou no nome da receita, a rota deve mudar para a tela de detalhes daquela receita
-
-  **Observações técnicas**
-
- * Ao clicar na foto da receita, a rota deve mudar para a tela de detalhes daquela receita;
- * Ao clicar no nome da receita, a rota deve mudar para a tela de detalhes daquela receita.
 
 ## Tela de explorar
 
 ### 67 - Implemente os elementos da tela de explorar respeitando os atributos descritos no protótipo
 
-  **Observações técnicas**
-
-  * Tem os data-testids explore-food e explore-drinks.
-
 ### 68 - Desenvolva a tela de maneira que tenha 2 botões: um para explorar comidas e o outro para explorar bebidas
 
-Verifica se o atributo `data-testid="explore-food"` possui o texto "Explorar Comidas" e se o `data-testid="explore-drinks"` possui o texto "Explorar Bebidas".
-
-  **Observações técnicas**
-
-  * O nomes dos botões devem ser "Explorar Comidas" e "Explorar Bebidas".
-
 ### 69 - Redirecione a pessoa usuária ao clicar em um dos botões, a rota deve mudar para a página de explorar comidas ou de explorar bebidas
-
-  **Observações técnicas**
-
-  * Ao clicar no botão "Explorar Comidas" a rota muda para a página de explorar comidas;
-  * Ao clicar no botão "Explorar Bebidas" a rota muda para a página de explorar bebidas.
 
 ## Tela de explorar bebidas ou comidas
 
 ### 70 - Implemente os elementos da tela de explorar bebidas ou comidas respeitando os atributos descritos no protótipo
 
-  **Observações técnicas**
-
-  * Tem os data-testids corretos para a tela de explorar comidas;
-  * Tem os data-testids corretos para a tela de explorar bebidas.
 
 ### 71 - Desenvolva 3 botões: um para explorar por ingrediente, um para explorar por local de origem e um para pegar uma receita aleatória
 
-O nomes dos botões devem ser "Por Ingredientes" com o atributo `data-testid="explore-by-ingredient"`, "Por Local de Origem" com o atributo `data-testid="explore-by-area"` e "Me Surpreenda!" com o atributo `data-testid="explore-surprise"`, respectivamente.
+O nomes dos botões devem ser "Por Ingredientes" , "Por Local de Origem"  e "Me Surpreenda!"  respectivamente.
 Obs: se a opção escolhida for explorar bebidas, o botão para explorar por local de origem não deve estar disponível.
 
-  **Observações técnicas**
-
-  * Tem os botões "Por Ingredientes", "Por Local de Origem" e "Me Surpreenda!" para a tela de explorar comidas;
-  * Tem apenas os botões "Por Ingredientes" e "Me Surpreenda!" para a tela de explorar bebidas.
-
 ### 72 - Redirecione a pessoa usuária ao clicar em "Por Ingredientes", para a tela de explorar por ingredientes
-
-  **Observações técnicas**
-
-  * Ao clicar no botão "Por Ingredientes" da tela de *explorar comidas* a rota muda para a página de explorar comidas por ingrediente;
-  * Ao clicar no botão "Por Ingredientes" da tela de *explorar bebidas* a rota muda para a página de explorar bebidas por ingrediente.
 
 ### 73 - Redirecione a pessoa usuária ao clicar em "Por Local de Origem", a rota deve mudar para tela de explorar por local de origem
 
@@ -1307,165 +689,42 @@ Obs: se a opção escolhida for explorar bebidas, o botão para explorar por loc
 
   **Observações técnicas**
 
-  * Ao clicar no botão "Por Ingredientes" da tela de *explorar comidas* a rota muda para a página de detalhes de uma comida aleatória obtida através do endpoint `https://www.themealdb.com/api/json/v1/1/random.php`;
-  * Ao clicar no botão "Por Ingredientes" da tela de *explorar bebidas* a rota muda para a página de detalhes de uma bebida aleatória obtida através do endpoint `https://www.thecocktaildb.com/api/json/v1/1/random.php`.
-
+  * Ao clicar no botão "Por Ingredientes" da tela de *explorar comidas* a rota muda para a página de detalhes de uma comida aleatória 
+  * Ao clicar no botão "Por Ingredientes" da tela de *explorar bebidas* a rota muda para a página de detalhes de uma bebida aleatória
 ## Tela de explorar ingredientes
 
 ### 75 - Implemente os elementos da tela de explorar ingredientes respeitando os atributos descritos no protótipo
 
-  A tela deve possuir os atributos `data-testid="${index}-ingredient-card"`, `data-testid="${index}-card-img"` e `data-testid="${index}-card-name"`, que estão relacionados ao card, imagem e nome do ingrediente respectivamente.
-
-  **Observações técnicas**
-
-  * Tem os data-testids corretos para a tela de explorar comidas por ingredientes;
-  * Tem os data-testids corretos para a tela de explorar bebidas por ingredientes.
-
 ### 76 - Desenvolva cards para os 12 primeiros ingredientes, de forma que cada card contenha o nome do ingrediente e uma foto
 
-  **Observações técnicas**
-
-  * Tem o nome e a foto corretos para a tela de explorar comidas por ingredientes;
-  * Tem o nome e a foto corretos para a tela de explorar bebidas por ingredientes.
-
 ### 77 -  Redireciona a pessoa usuária ao clicar no card do ingrediente, a rota deve mudar para tela principal de receitas mas mostrando apenas as receitas que contém o ingrediente escolhido
-
-  **Observações técnicas**
-
-  * Ao clicar no card do ingrediente da tela de explorar comidas por ingrediente a rota muda para a tela principal de receitas filtrada pelo ingrediente;
-  * Ao clicar no card do ingrediente da tela de explorar bebidas por ingrediente a rota muda para a tela principal de receitas filtrada pelo ingrediente.
 
 ## Tela de explorar por local de origem/area
 
 ### 78 - Implemente os elementos da tela de explorar por local de origem respeitando os atributos descritos no protótipo
 
-  O elemento de dropdown deve possuir o atributo `data-testid="explore-by-area-dropdown"` e suas opções devem possuir o atributo `[data-testid="${area}-option"]`.
-
-  **Observações técnicas**
-
-  * A tela tem os data-testids de todos os 12 cards e de todos os locais de origem.
 
 ### 79 - Desenvolva as mesmas especificações da tela de receitas principal, com a diferença de que os filtros de categoria são substituídos por um dropdown
 
-  O elemento de dropdown deve possuir o atributo `data-testid="explore-by-area-dropdown"`.
-
-  **Observações técnicas**
-
-  * Devem ser carregadas as 12 primeiras receitas de comidas;
-  * Ao selecionar um filtro de local de origem, todas as receitas devem mudar para os dados filtrados da API;
-  * Ao clicar no card, a rota deve mudar para a tela de detalhes da receita com o ID da mesma na URL.
-
+ 
 ### 80 - Implemente o dropdown de maneira que devem estar disponíveis todas as áreas retornadas da API, incluindo a opção "All", que retorna as receitas sem nenhum filtro
 
-  **Observações técnicas**
-
-  * No dropdown devem estar disponíveis todas as áreas retornadas da API, incluindo a opção "All";
-  * A opção "All" retorna as receitas sem nenhum filtro.
-
+  
 ### 81 - Implemente a rota que deve ser apenas `/explorar/comidas/area`
 
 A rota `/explorar/bebidas/area` não deve estar disponível, retornando um erro de "Not Found".
-
-  **Observações técnicas**
-
-  * Ao acessar a rota ela retorna um erro de "Not Found".
-
+ 
 ## Tela de perfil
 
 ### 82 - Implemente os elementos da a tela de perfil respeitando os atributos descritos no protótipo
-
-  **Observações técnicas**
-
-  * Todos o data-testid do email e de todos os botões
-    * O elemento de email deve possuir o atributo `data-testid="profile-email"`;
-    * O botão com as "Receitas Feitas" deve possuir o atributo `data-testid="profile-done-btn"`;
-    * O botão com as "Receitas Favoritas" deve possuir o atributo `data-testid="profile-favorite-btn"`;
-    * O botão de sair deve possuir o atributo `data-testid="profile-logout-btn"`.
 
 ### 83 - Implemente a solução de maneira que o e-mail da pessoa usuária deve estar visível
 
 ### 84 - Implemente 3 botões: um de nome "Receitas Feitas", um de nome "Receitas Favoritas" e um de nome "Sair"
 
-  **Observações técnicas**
-
-  * A tela contêm todos os 3 botões.
-
 ### 85 - Redirecione a pessoa usuária que, ao clicar no botão de "Receitas Favoritas", a rota deve mudar para a tela de receitas favoritas
-
-  **Observações técnicas**
-
-  * Redireciona para a rota correta.
 
 ### 86 - Redirecione a pessoa usuária que, ao clicar no botão de "Receitas Feitas", a rota deve mudar para a tela de receitas feitas
 
-  **Observações técnicas**
-
-  * Redireciona para a rota correta.
-
 ### 87 - Redirecione a pessoa usuária que, ao clicar no botão de "Sair", o `localStorage` deve ser limpo e a rota deve mudar para a tela de login
 
-  **Observações técnicas**
-
-  * Limpa todas as chaves da localStorage;
-  * A rota muda para a tela de login.
-
----
-
-***Obs: A maneira como as APIs devem ser estruturadas segue os seguintes modelos: https://www.themealdb.com/api.php e https://www.thecocktaildb.com/api.php***
-
-### DURANTE O DESENVOLVIMENTO
-
-* ⚠ **LEMBRE-SE DE CRIAR TODOS OS ARQUIVOS DENTRO DA PASTA COM O SEU NOME** ⚠
-
-
-* Faça `commits` das alterações que você fizer no código regularmente
-
-* Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto
-
-* Os comandos que você utilizará com mais frequência são:
-
-1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
-
-2. `git add` _(para adicionar arquivos ao stage do Git)_
-
-3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
-
-4. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
-
-5. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
-
----
-
-### DEPOIS DE TERMINAR O DESENVOLVIMENTO (OPCIONAL)
-
-Para sinalizar que o seu projeto está pronto para o _"Code Review"_ dos seus colegas, faça o seguinte:
-
-* Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas:
-
-  * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**;
-
-  * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
-
-  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-06`.
-
-Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
----
-
-### REVISANDO UM PULL REQUEST
-
-Use o conteúdo sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os _Pull Requests_.
-
-#VQV 🚀
-
----
-
-# AVISOS FINAIS
-
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. Leva menos de 3 minutos!
-
-Link: [FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://be-trybe.typeform.com/to/ZTeR4IbH)
-
-O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?
-
----
