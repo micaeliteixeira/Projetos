@@ -1,6 +1,6 @@
 # Bem-vindo ao  Projeto Pixel Art!  👋
 
-Este projeto é um projeto desenvolvido durante o curso Desenvolvimento de Software Full-Stark na [Trybe](https://www.betrybe.com/), no módulo Fundamentos de Desenvolvimento Web, como forma de testar e colocar as práticas adquiridas durante o curso.
+Este projeto é um projeto desenvolvido durante o curso Desenvolvimento de Software Full-Stack na [Trybe](https://www.betrybe.com/), no módulo Fundamentos de Desenvolvimento Web, como forma de testar e colocar as práticas adquiridas durante o curso.
 
 O projeto apresenta uma grade onde você pode colorir com cores podrões  ou cores aleatórias quando clicado no botão de cor aleatória. Você também pode limpar seu desenho e definir o tamanho do grande.
 
@@ -18,7 +18,7 @@ O projeto apresenta uma grade onde você pode colorir com cores podrões  ou cor
 
 ---
 
-## Entregáveis 🚀 :
+## Desafios 🚀 :
 
  1. A página deve ter o título "Paleta de Cores".
  2. A página deve ter uma paleta de quatro cores diferentes.
