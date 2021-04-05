@@ -1,4 +1,4 @@
-# Bem-vindo ao projeto de Trivia! 👋
+# Bem-vindo ao projeto de AppRecipes 👋
 
 Este projeto desenvolvido em grupo durante o curso Desenvolvimento de Software Full-Stack na [Trybe](https://www.betrybe.com/), como projeto de conclusão do modulo de Desenvolvimento Fron-end.
 
