@@ -1,0 +1,48 @@
+.profilecontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileinformations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 150px;
+  max-width: 300px;
+  width: 80vw;
+}
+
+.inputprofile {
+  background: transparent;
+  border: 1px solid rgb(220, 220, 220, 0.7);
+  padding: 6px;
+  margin-bottom: 12px;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(100, 100, 100);
+}
+
+.buttonprofile {
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 3px;
+  border: none;
+  background-color: #e9925c;
+  margin-bottom: 5px;
+}
+
+.buttonprofile:disabled {
+  background: darkgray;
+}
+
+.labelprofile {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: bold;
+}

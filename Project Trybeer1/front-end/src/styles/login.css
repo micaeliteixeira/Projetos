@@ -1,0 +1,74 @@
+.maincontainer {
+  background-image: url('../images/background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+  position: fixed;
+}
+.transparence {
+  background-color: rgb(0, 0, 0, 0.6);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logincontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 350px;
+}
+
+.logoimage {
+  margin-bottom: 60px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-size: 24px;
+}
+
+.input {
+  background: transparent;
+  border: 1px solid rgb(220, 220, 220, 0.7);
+  padding: 6px;
+  margin-bottom: 12px;
+  border-radius: 3px;
+  color: white;
+  font-size: 18px;
+}
+
+.button {
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 3px;
+  border: none;
+  background-color: #e9925c;
+  margin-bottom: 5px;
+}
+
+.button:disabled {
+  background: darkgray;
+}
+
+.button:nth-of-type(1) {
+  margin-top: 20px;
+}
+
+.button:nth-of-type(2) {
+  color: #000;
+  background-color: #fff;
+}

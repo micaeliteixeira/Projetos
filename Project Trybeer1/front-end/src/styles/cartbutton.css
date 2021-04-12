@@ -1,0 +1,16 @@
+.cartbutton {
+  padding: 10px 30px;
+  bottom: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  position: fixed;
+  background-color: #e9925c;
+  margin-bottom: 5px;
+}
+
+.cartbutton:disabled {
+  background: darkgray;
+}
