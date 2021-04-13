@@ -6,10 +6,11 @@ Oi, bem-vindo ao meu repositório de projetos !! :rocket:
 
 ## Projetos: :hourglass:
    
-   * [Projeto Pixel Art](https://github.com/micaeliteixeira/Projetos/tree/master/Project%20Pixel%20Art)
-   * [Projeto Facebook Signup](https://github.com/micaeliteixeira/Projetos/tree/master/Project%20Facebook%20Signup)
-   * [Projeto Trivia](https://github.com/micaeliteixeira/Projetos/tree/master/Project%20Trivia)
-   * [Projeto AppRecipe](https://github.com/micaeliteixeira/Projetos/tree/master/Project%20AppRecipes)
+   * [Projeto Pixel Art](https://github.com/micaeliteixeira/Projetos/tree/master/Project%20Pixel%20Art) --- Front-end
+   * [Projeto Facebook Signup](https://github.com/micaeliteixeira/Projetos/tree/master/Project%20Facebook%20Signup) --- Front-end
+   * [Projeto Trivia](https://github.com/micaeliteixeira/Projetos/tree/master/Project%20Trivia) --- Front-end
+   * [Projeto AppRecipe](https://github.com/micaeliteixeira/Projetos/tree/master/Project%20AppRecipes) --- Front-end
+   * [Tryber 1](https://github.com/micaeliteixeira/Projetos/tree/master/Project%20Trybeer1) --- Front-end e Back-end
    
   
 
