@@ -8,8 +8,8 @@ Este é a primeira versão do projeto desenvolvido em grupo durante o curso Dese
 
 - [Habilidades](#habilidades)
 - [Como Rodar](#como-rodar)
-- [Prototipo](#prototipo)
-- [Status] (#status)
+- [Protótipo](#protótipo)
+- [Status](#status)
 - [Lista de desafios](#lista-de-desafios)
 
     - [1 - Crie uma página de login](#1---crie-uma-página-de-login)
@@ -57,9 +57,9 @@ Para facilitar o entendimento, dá para dividirmos a aplicação em três partes
   * Instale as dependências:
     * `npm install`
   * É necessário ter as variaveis de ambientes configuradas no arquivo .env da pasta Back-end.
-    ` HOSTNAME=localhost `
-    ` MYSQL_USER=root `
-    ` MYSQL_PASSWORD="sua_senha_aqui" `
+   ` HOSTNAME=localhost `
+   ` MYSQL_USER=root `
+   ` MYSQL_PASSWORD="sua_senha_aqui"`
   * Haverá um arquivo chamado `script.sql` onde já contém a criação de do banco e alguns inserts.
     * Para rodar o arquivo basta rodar o comando:
       `mysql -u root -p`
@@ -67,28 +67,27 @@ Para facilitar o entendimento, dá para dividirmos a aplicação em três partes
       `source pasta_do_projeto/script.sql`
   * Inicialize o projeto:
     * `npm run debug start` (deve aparecer que o nodemon foi inicializado no seu terminal)
-
-  #### Front-end
+##### Front-end
   * Instale as dependências:
     * `npm install`
-
   * Inicialize o projeto:
     * `npm start` (uma nova página deve abrir no seu navegador com um texto simples)
 
 
 
-### Prototipo
+### Protótipo
  * Protótipo do projeto desenvolvido pelos integrantes do grupo.
+ <img src="https://github.com/micaeliteixeira/Projetos/blob/project-Trybeer/Project%20Trybeer1/public/loginGrupo.png">
 
- * Protótipos de telas sugeridos pelo curso
+ * [Protótipos de telas sugeridos pelo curso](https://github.com/micaeliteixeira/Projetos/tree/project-Trybeer/Project%20Trybeer1/public)
 
 
 
-### Status
+### Status 🚧
 
  * Versão 1 - concluída
 
- * IMPORTANTE ⚠️ 
+ * ⚠️ IMPORTANTE ⚠️ 
     * O projeto TryBeer é a base para o desenvolvimento do projeto TryBeer **v2**;
 
 ### Lista de desafio
@@ -356,9 +355,5 @@ Essa página corresponde às páginas `Admin - Detalhes de Pedido - Pendente` e 
 
 - Ao clicar no botão `"Marcar pedido como entregue"`, o status desse pedido deve mudar para `Entregue` e o botão deve desaparecer.
 
-
-### IMPORTANTE ⚠️ 
-
-* O projeto TryBeer é a base para o desenvolvimento do projeto TryBeer **v2**;
 
 
