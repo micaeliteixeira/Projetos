@@ -1,0 +1,38 @@
+.order-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.order-container {
+  font-size: large;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+  width: 90vw;
+  margin-top: 120px;
+  padding: 5px;
+  box-shadow: 8px 8px 32px -3px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+}
+
+.order-date {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.orderlist {
+  border: 1px solid black;
+  list-style-position: inside;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: -40px;
+
+}

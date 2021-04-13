@@ -1,0 +1,40 @@
+.side-menu-container {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  min-height: 50vh;
+  background-color: #e9925c;
+  border-radius: 0 0 5px 0;
+  align-items: center;
+  position: absolute;
+  box-shadow: 0 2px 9px 0 black;
+}
+
+.alignsidebar {
+  margin-top: 100px;
+}
+
+.buttonside {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  width: 90%;
+  border: 2px solid white;
+  padding: 5px;
+  background: none;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+.buttonside:nth-of-type(1) {
+  margin-top: 100px;
+}
+
+.buttonside:nth-of-type(3) {
+  margin-top: 0;
+}
+
+.buttonside:nth-of-type(4) {
+  margin: auto;
+  margin-bottom: 10px;
+}
